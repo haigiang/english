@@ -1,0 +1,150 @@
+{
+	"courseId": 1001,
+	"courseName": "Tiếng Anh Cơ Bản Cho Người Mới Bắt Đầu",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "👋",
+			"title": "Greetings & Introductions",
+			"description": "Chào hỏi và giới thiệu",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "blue",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Basic Greetings",
+					"content": "<h1>Chào Hỏi Cơ Bản</h1><p>Học cách chào hỏi trong tiếng Anh</p><ul><li>Hello = Xin chào</li><li>Good morning = Chào buổi sáng</li><li>How are you? = Bạn khỏe không?</li><li>Nice to meet you = Rất vui được gặp bạn</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "How do you greet someone in the morning?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Good morning",
+							"score": 800000,
+							"text_trans": "Chào buổi sáng"
+						},
+						{
+							"id": 2,
+							"text": "Good night",
+							"score": 450000,
+							"text_trans": "Chúc ngủ ngon"
+						},
+						{
+							"id": 3,
+							"text": "Goodbye",
+							"score": 350000,
+							"text_trans": "Tạm biệt"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "'Nice to meet you' is used when ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Meeting someone for the first time",
+							"score": 800000,
+							"text_trans": "Gặp ai đó lần đầu"
+						},
+						{
+							"id": 2,
+							"text": "Saying goodbye",
+							"score": 450000,
+							"text_trans": "Chào tạm biệt"
+						},
+						{
+							"id": 3,
+							"text": "Asking for help",
+							"score": 350000,
+							"text_trans": "Xin giúp đỡ"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🔢",
+			"title": "Numbers & Time",
+			"description": "Số đếm và thời gian",
+			"status": "locked",
+			"progress": 0,
+			"color": "blue",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "What time is it? It's ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Three o'clock",
+							"score": 800000,
+							"text_trans": "3 giờ"
+						},
+						{
+							"id": 2,
+							"text": "Three hours",
+							"score": 450000,
+							"text_trans": "3 tiếng"
+						},
+						{
+							"id": 3,
+							"text": "Three minutes",
+							"score": 350000,
+							"text_trans": "3 phút"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🏠",
+			"title": "Daily Life Vocabulary",
+			"description": "Từ vựng cuộc sống hàng ngày",
+			"status": "locked",
+			"progress": 0,
+			"color": "blue",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "Where do you live?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "I live in Hanoi",
+							"score": 800000,
+							"text_trans": "Tôi sống ở Hà Nội"
+						},
+						{
+							"id": 2,
+							"text": "I'm fine",
+							"score": 450000,
+							"text_trans": "Tôi khỏe"
+						},
+						{
+							"id": 3,
+							"text": "I'm a student",
+							"score": 350000,
+							"text_trans": "Tôi là học sinh"
+						}
+					]
+				}
+			]
+		}
+	]
+}

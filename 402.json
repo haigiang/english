@@ -1,0 +1,150 @@
+{
+	"courseId": 402,
+	"courseName": "Giới Từ Cơ Bản - Lớp 4",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "📍",
+			"title": "Giới từ chỉ nơi chốn",
+			"description": "In, On, At, Under",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "orange",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Prepositions of Place",
+					"content": "<h1>Giới Từ Chỉ Nơi Chốn</h1><p>Các giới từ thường dùng</p><ul><li>In = Trong</li><li>On = Trên</li><li>At = Ở, tại</li><li>Under = Dưới</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "The book is ___ the table",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "on",
+							"score": 800000,
+							"text_trans": "trên"
+						},
+						{
+							"id": 2,
+							"text": "in",
+							"score": 450000,
+							"text_trans": "trong"
+						},
+						{
+							"id": 3,
+							"text": "at",
+							"score": 350000,
+							"text_trans": "tại"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "The cat is ___ the box",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "in",
+							"score": 800000,
+							"text_trans": "trong"
+						},
+						{
+							"id": 2,
+							"text": "on",
+							"score": 450000,
+							"text_trans": "trên"
+						},
+						{
+							"id": 3,
+							"text": "under",
+							"score": 350000,
+							"text_trans": "dưới"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🕐",
+			"title": "Giới từ chỉ thời gian",
+			"description": "In, On, At với thời gian",
+			"status": "locked",
+			"progress": 0,
+			"color": "orange",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "I wake up ___ 7 o'clock",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "at",
+							"score": 800000,
+							"text_trans": "lúc"
+						},
+						{
+							"id": 2,
+							"text": "in",
+							"score": 450000,
+							"text_trans": "trong"
+						},
+						{
+							"id": 3,
+							"text": "on",
+							"score": 350000,
+							"text_trans": "vào"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🎯",
+			"title": "Ôn tập giới từ",
+			"description": "Ôn tập tất cả giới từ",
+			"status": "locked",
+			"progress": 0,
+			"color": "orange",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "I was born ___ 2010",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "in",
+							"score": 800000,
+							"text_trans": "năm"
+						},
+						{
+							"id": 2,
+							"text": "on",
+							"score": 450000,
+							"text_trans": "vào"
+						},
+						{
+							"id": 3,
+							"text": "at",
+							"score": 350000,
+							"text_trans": "tại"
+						}
+					]
+				}
+			]
+		}
+	]
+}

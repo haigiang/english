@@ -1,0 +1,150 @@
+{
+	"courseId": 501,
+	"courseName": "Thì Quá Khứ - Lớp 5",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "⏮️",
+			"title": "Past Simple",
+			"description": "Thì quá khứ đơn",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "purple",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Past Simple Basics",
+					"content": "<h1>Thì Quá Khứ Đơn</h1><p>Dùng để diễn tả hành động đã xảy ra trong quá khứ</p><ul><li>I played</li><li>I went</li><li>I was/were</li><li>I did</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "I ___ to school yesterday",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "went",
+							"score": 800000,
+							"text_trans": "đã đi"
+						},
+						{
+							"id": 2,
+							"text": "go",
+							"score": 450000,
+							"text_trans": "đi"
+						},
+						{
+							"id": 3,
+							"text": "going",
+							"score": 350000,
+							"text_trans": "đang đi"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "She ___ her homework last night",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "did",
+							"score": 800000,
+							"text_trans": "đã làm"
+						},
+						{
+							"id": 2,
+							"text": "do",
+							"score": 450000,
+							"text_trans": "làm"
+						},
+						{
+							"id": 3,
+							"text": "does",
+							"score": 350000,
+							"text_trans": "làm"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "📖",
+			"title": "Irregular Verbs",
+			"description": "Động từ bất quy tắc",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "I ___ a book yesterday (read)",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "read",
+							"score": 800000,
+							"text_trans": "đã đọc"
+						},
+						{
+							"id": 2,
+							"text": "readed",
+							"score": 450000,
+							"text_trans": "readed"
+						},
+						{
+							"id": 3,
+							"text": "reading",
+							"score": 350000,
+							"text_trans": "đang đọc"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "✅",
+			"title": "Ôn tập quá khứ",
+			"description": "Ôn tập thì quá khứ",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "They ___ happy yesterday",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "were",
+							"score": 800000,
+							"text_trans": "đã"
+						},
+						{
+							"id": 2,
+							"text": "was",
+							"score": 450000,
+							"text_trans": "đã"
+						},
+						{
+							"id": 3,
+							"text": "are",
+							"score": 350000,
+							"text_trans": "là"
+						}
+					]
+				}
+			]
+		}
+	]
+}

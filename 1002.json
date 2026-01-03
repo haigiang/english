@@ -1,0 +1,126 @@
+{
+	"courseId": 1002,
+	"courseName": "Ngữ Pháp Cơ Bản",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "📘",
+			"title": "Subject & Verb",
+			"description": "Chủ ngữ và động từ",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "green",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Basic Sentence Structure",
+					"content": "<h1>Cấu Trúc Câu Cơ Bản</h1><p>Subject + Verb + Object</p><ul><li>I eat rice</li><li>She reads books</li><li>They play football</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "In the sentence 'I eat rice', what is the subject?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "I",
+							"score": 800000,
+							"text_trans": "I"
+						},
+						{
+							"id": 2,
+							"text": "eat",
+							"score": 450000,
+							"text_trans": "eat"
+						},
+						{
+							"id": 3,
+							"text": "rice",
+							"score": 350000,
+							"text_trans": "rice"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "❓",
+			"title": "Questions & Answers",
+			"description": "Câu hỏi và trả lời",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "To ask a yes/no question, we use ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Do/Does/Did",
+							"score": 800000,
+							"text_trans": "Do/Does/Did"
+						},
+						{
+							"id": 2,
+							"text": "What/Where/When",
+							"score": 450000,
+							"text_trans": "What/Where/When"
+						},
+						{
+							"id": 3,
+							"text": "Because/So/But",
+							"score": 350000,
+							"text_trans": "Because/So/But"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🚫",
+			"title": "Negatives",
+			"description": "Câu phủ định",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "I ___ like coffee (negative)",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "don't",
+							"score": 800000,
+							"text_trans": "không"
+						},
+						{
+							"id": 2,
+							"text": "doesn't",
+							"score": 450000,
+							"text_trans": "không"
+						},
+						{
+							"id": 3,
+							"text": "not",
+							"score": 350000,
+							"text_trans": "không"
+						}
+					]
+				}
+			]
+		}
+	]
+}

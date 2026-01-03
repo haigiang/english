@@ -1,0 +1,150 @@
+{
+	"courseId": 103,
+	"courseName": "Màu Sắc - Lớp 1",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🎨",
+			"title": "Màu cơ bản",
+			"description": "Học về các màu cơ bản",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "pink",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Red, Blue, Yellow",
+					"content": "<h1>Màu Cơ Bản</h1><p>Học về ba màu chính</p><ul><li>Red = Đỏ</li><li>Blue = Xanh dương</li><li>Yellow = Vàng</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "What color is the sky?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Blue",
+							"score": 800000,
+							"text_trans": "Xanh dương"
+						},
+						{
+							"id": 2,
+							"text": "Red",
+							"score": 450000,
+							"text_trans": "Đỏ"
+						},
+						{
+							"id": 3,
+							"text": "Green",
+							"score": 350000,
+							"text_trans": "Xanh lá"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "An apple is usually ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Red",
+							"score": 800000,
+							"text_trans": "Đỏ"
+						},
+						{
+							"id": 2,
+							"text": "Blue",
+							"score": 450000,
+							"text_trans": "Xanh dương"
+						},
+						{
+							"id": 3,
+							"text": "Purple",
+							"score": 350000,
+							"text_trans": "Tím"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🌈",
+			"title": "Màu phụ",
+			"description": "Học về các màu phụ",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "Green = Blue + ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Yellow",
+							"score": 800000,
+							"text_trans": "Vàng"
+						},
+						{
+							"id": 2,
+							"text": "Red",
+							"score": 450000,
+							"text_trans": "Đỏ"
+						},
+						{
+							"id": 3,
+							"text": "White",
+							"score": 350000,
+							"text_trans": "Trắng"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🎪",
+			"title": "Ôn tập màu sắc",
+			"description": "Ôn tập tất cả các màu",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "What color is the sun?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Yellow",
+							"score": 800000,
+							"text_trans": "Vàng"
+						},
+						{
+							"id": 2,
+							"text": "Orange",
+							"score": 750000,
+							"text_trans": "Cam"
+						},
+						{
+							"id": 3,
+							"text": "Red",
+							"score": 450000,
+							"text_trans": "Đỏ"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,150 @@
+{
+	"courseId": 701,
+	"courseName": "Câu Bị Động - Lớp 7",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🔄",
+			"title": "Passive Voice Basics",
+			"description": "Câu bị động cơ bản",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "green",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Introduction to Passive",
+					"content": "<h1>Câu Bị Động</h1><p>Be + Past Participle (V3)</p><ul><li>Active: She writes a letter</li><li>Passive: A letter is written by her</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "The book ___ by millions of people",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "is read",
+							"score": 800000,
+							"text_trans": "được đọc"
+						},
+						{
+							"id": 2,
+							"text": "reads",
+							"score": 450000,
+							"text_trans": "đọc"
+						},
+						{
+							"id": 3,
+							"text": "read",
+							"score": 350000,
+							"text_trans": "đọc"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "English ___ all over the world",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "is spoken",
+							"score": 800000,
+							"text_trans": "được nói"
+						},
+						{
+							"id": 2,
+							"text": "speaks",
+							"score": 450000,
+							"text_trans": "nói"
+						},
+						{
+							"id": 3,
+							"text": "speak",
+							"score": 350000,
+							"text_trans": "nói"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "⏰",
+			"title": "Passive in Different Tenses",
+			"description": "Bị động ở các thì khác nhau",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "The house ___ last year",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "was built",
+							"score": 800000,
+							"text_trans": "được xây"
+						},
+						{
+							"id": 2,
+							"text": "is built",
+							"score": 450000,
+							"text_trans": "được xây"
+						},
+						{
+							"id": 3,
+							"text": "built",
+							"score": 350000,
+							"text_trans": "xây"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "✍️",
+			"title": "Ôn tập câu bị động",
+			"description": "Ôn tập tất cả dạng bị động",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "A new school ___ next month",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "will be built",
+							"score": 800000,
+							"text_trans": "sẽ được xây"
+						},
+						{
+							"id": 2,
+							"text": "is built",
+							"score": 450000,
+							"text_trans": "được xây"
+						},
+						{
+							"id": 3,
+							"text": "was built",
+							"score": 350000,
+							"text_trans": "đã được xây"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,126 @@
+{
+	"courseId": 801,
+	"courseName": "Câu Tường Thuật - Lớp 8",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "💬",
+			"title": "Reported Statements",
+			"description": "Câu trần thuật gián tiếp",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "purple",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Basic Reported Speech",
+					"content": "<h1>Câu Tường Thuật</h1><p>Chuyển từ trực tiếp sang gián tiếp</p><ul><li>He said, 'I am tired' → He said (that) he was tired</li><li>Lùi thì, đổi đại từ</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "She said, 'I like coffee' → She said she ___ coffee",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "liked",
+							"score": 800000,
+							"text_trans": "thích"
+						},
+						{
+							"id": 2,
+							"text": "like",
+							"score": 450000,
+							"text_trans": "thích"
+						},
+						{
+							"id": 3,
+							"text": "likes",
+							"score": 350000,
+							"text_trans": "thích"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "❓",
+			"title": "Reported Questions",
+			"description": "Câu hỏi gián tiếp",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "'Where do you live?' → He asked me where I ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "lived",
+							"score": 800000,
+							"text_trans": "sống"
+						},
+						{
+							"id": 2,
+							"text": "live",
+							"score": 450000,
+							"text_trans": "sống"
+						},
+						{
+							"id": 3,
+							"text": "living",
+							"score": 350000,
+							"text_trans": "đang sống"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "📢",
+			"title": "Reported Commands",
+			"description": "Câu mệnh lệnh gián tiếp",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "'Open the door!' → She told me ___ the door",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "to open",
+							"score": 800000,
+							"text_trans": "mở"
+						},
+						{
+							"id": 2,
+							"text": "open",
+							"score": 450000,
+							"text_trans": "mở"
+						},
+						{
+							"id": 3,
+							"text": "opened",
+							"score": 350000,
+							"text_trans": "đã mở"
+						}
+					]
+				}
+			]
+		}
+	]
+}

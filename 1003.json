@@ -1,0 +1,126 @@
+{
+	"courseId": 1003,
+	"courseName": "Luyện Nghe Cơ Bản",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "👂",
+			"title": "Simple Conversations",
+			"description": "Hội thoại đơn giản",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "purple",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "At the Store",
+					"content": "<h1>Tại Cửa Hàng</h1><p>Nghe và hiểu hội thoại mua sắm</p><ul><li>How much is this? = Cái này bao nhiêu tiền?</li><li>Can I help you? = Tôi có thể giúp gì?</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "When shopping, to ask the price you say ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "How much is this?",
+							"score": 800000,
+							"text_trans": "Cái này bao nhiêu tiền?"
+						},
+						{
+							"id": 2,
+							"text": "How are you?",
+							"score": 450000,
+							"text_trans": "Bạn khỏe không?"
+						},
+						{
+							"id": 3,
+							"text": "What's your name?",
+							"score": 350000,
+							"text_trans": "Tên bạn là gì?"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🍽️",
+			"title": "At the Restaurant",
+			"description": "Tại nhà hàng",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "To order food, you can say ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "I'd like a hamburger, please",
+							"score": 800000,
+							"text_trans": "Tôi muốn một cái hamburger"
+						},
+						{
+							"id": 2,
+							"text": "How old are you?",
+							"score": 450000,
+							"text_trans": "Bạn bao nhiêu tuổi?"
+						},
+						{
+							"id": 3,
+							"text": "Where is the bathroom?",
+							"score": 350000,
+							"text_trans": "Nhà vệ sinh ở đâu?"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🚇",
+			"title": "Getting Around",
+			"description": "Di chuyển",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "To ask for directions, say ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "How do I get to the station?",
+							"score": 800000,
+							"text_trans": "Tôi đến ga như thế nào?"
+						},
+						{
+							"id": 2,
+							"text": "What's your job?",
+							"score": 450000,
+							"text_trans": "Công việc của bạn là gì?"
+						},
+						{
+							"id": 3,
+							"text": "I'm from Vietnam",
+							"score": 350000,
+							"text_trans": "Tôi đến từ Việt Nam"
+						}
+					]
+				}
+			]
+		}
+	]
+}

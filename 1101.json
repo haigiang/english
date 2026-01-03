@@ -1,0 +1,156 @@
+{
+	"courseId": 1101,
+	"courseName": "Tiếng Anh Giao Tiếp Nâng Cao",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "💼",
+			"title": "Business English",
+			"description": "Tiếng Anh thương mại",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "purple",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Meeting Vocabulary",
+					"content": "<h1>Meeting Vocabulary</h1><p>Essential vocabulary for business meetings</p><ul><li>Agenda = Chương trình nghị sự</li><li>Minutes = Biên bản cuộc họp</li><li>Action items = Nhiệm vụ cần thực hiện</li><li>Follow-up = Theo dõi</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "What do we call a list of topics to discuss in a meeting?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Agenda",
+							"score": 800000,
+							"text_trans": "Chương trình nghị sự"
+						},
+						{
+							"id": 2,
+							"text": "Minutes",
+							"score": 450000,
+							"text_trans": "Biên bản"
+						},
+						{
+							"id": 3,
+							"text": "Schedule",
+							"score": 350000,
+							"text_trans": "Lịch trình"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "Could you please ___ on that proposal by Friday?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "follow up",
+							"score": 800000,
+							"text_trans": "theo dõi"
+						},
+						{
+							"id": 2,
+							"text": "follow down",
+							"score": 450000,
+							"text_trans": "follow down"
+						},
+						{
+							"id": 3,
+							"text": "follow through",
+							"score": 350000,
+							"text_trans": "follow through"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "✈️",
+			"title": "Travel English",
+			"description": "Tiếng Anh du lịch",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 2,
+			"lessons": [
+				{
+					"id": "2-1",
+					"title": "At the Airport",
+					"content": "<h1>At the Airport</h1><p>English for airport situations</p>"
+				}
+			],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "Where do you check in your luggage?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Check-in counter",
+							"score": 800000,
+							"text_trans": "Quầy làm thủ tục"
+						},
+						{
+							"id": 2,
+							"text": "Gate",
+							"score": 450000,
+							"text_trans": "Cổng lên máy bay"
+						},
+						{
+							"id": 3,
+							"text": "Customs",
+							"score": 350000,
+							"text_trans": "Hải quan"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🎭",
+			"title": "Idioms & Expressions",
+			"description": "Thành ngữ và cách diễn đạt",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "'Break the ice' means to ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Start a conversation",
+							"score": 800000,
+							"text_trans": "Bắt đầu cuộc trò chuyện"
+						},
+						{
+							"id": 2,
+							"text": "Stop talking",
+							"score": 450000,
+							"text_trans": "Ngừng nói chuyện"
+						},
+						{
+							"id": 3,
+							"text": "Make ice",
+							"score": 350000,
+							"text_trans": "Làm đá"
+						}
+					]
+				}
+			]
+		}
+	]
+}

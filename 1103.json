@@ -1,0 +1,126 @@
+{
+	"courseId": 1103,
+	"courseName": "IELTS Academic Preparation",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "✍️",
+			"title": "IELTS Writing Task 1",
+			"description": "Graphs, Charts & Diagrams",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "pink",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Describing Trends",
+					"content": "<h1>IELTS Writing Task 1</h1><p>Mô tả biểu đồ và xu hướng</p><ul><li>Increase/Decrease vocabulary</li><li>Compare and contrast</li><li>Overview writing</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "In IELTS Writing Task 1, you should write at least ___ words",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "150",
+							"score": 800000,
+							"text_trans": "150"
+						},
+						{
+							"id": 2,
+							"text": "250",
+							"score": 450000,
+							"text_trans": "250"
+						},
+						{
+							"id": 3,
+							"text": "100",
+							"score": 350000,
+							"text_trans": "100"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "📝",
+			"title": "IELTS Writing Task 2",
+			"description": "Essay Writing",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "IELTS Writing Task 2 requires ___ words minimum",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "250",
+							"score": 800000,
+							"text_trans": "250"
+						},
+						{
+							"id": 2,
+							"text": "150",
+							"score": 450000,
+							"text_trans": "150"
+						},
+						{
+							"id": 3,
+							"text": "300",
+							"score": 350000,
+							"text_trans": "300"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🗣️",
+			"title": "IELTS Speaking",
+			"description": "Speaking Test Preparation",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "IELTS Speaking has ___ parts",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "3",
+							"score": 800000,
+							"text_trans": "3"
+						},
+						{
+							"id": 2,
+							"text": "2",
+							"score": 450000,
+							"text_trans": "2"
+						},
+						{
+							"id": 3,
+							"text": "4",
+							"score": 350000,
+							"text_trans": "4"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,150 @@
+{
+	"courseId": 301,
+	"courseName": "Động Từ Cơ Bản - Lớp 3",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🏃",
+			"title": "Động từ thường",
+			"description": "Học các động từ cơ bản",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "green",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Common Verbs",
+					"content": "<h1>Động Từ Thường</h1><p>Các động từ hay dùng</p><ul><li>Run = Chạy</li><li>Jump = Nhảy</li><li>Walk = Đi bộ</li><li>Eat = Ăn</li><li>Drink = Uống</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "I ___ to school every day",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Walk",
+							"score": 800000,
+							"text_trans": "Đi bộ"
+						},
+						{
+							"id": 2,
+							"text": "Eat",
+							"score": 450000,
+							"text_trans": "Ăn"
+						},
+						{
+							"id": 3,
+							"text": "Sleep",
+							"score": 350000,
+							"text_trans": "Ngủ"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "I am hungry. I want to ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Eat",
+							"score": 800000,
+							"text_trans": "Ăn"
+						},
+						{
+							"id": 2,
+							"text": "Run",
+							"score": 450000,
+							"text_trans": "Chạy"
+						},
+						{
+							"id": 3,
+							"text": "Jump",
+							"score": 350000,
+							"text_trans": "Nhảy"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🎭",
+			"title": "Động từ chỉ hành động",
+			"description": "Động từ diễn tả hành động",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "She can ___ very fast",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Run",
+							"score": 800000,
+							"text_trans": "Chạy"
+						},
+						{
+							"id": 2,
+							"text": "Sleep",
+							"score": 450000,
+							"text_trans": "Ngủ"
+						},
+						{
+							"id": 3,
+							"text": "Sit",
+							"score": 350000,
+							"text_trans": "Ngồi"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "📝",
+			"title": "Ôn tập động từ",
+			"description": "Ôn tập tất cả động từ",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "I ___ water when I'm thirsty",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Drink",
+							"score": 800000,
+							"text_trans": "Uống"
+						},
+						{
+							"id": 2,
+							"text": "Eat",
+							"score": 450000,
+							"text_trans": "Ăn"
+						},
+						{
+							"id": 3,
+							"text": "Cook",
+							"score": 350000,
+							"text_trans": "Nấu"
+						}
+					]
+				}
+			]
+		}
+	]
+}

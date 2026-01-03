@@ -1,0 +1,126 @@
+{
+	"courseId": 602,
+	"courseName": "Câu Điều Kiện - Lớp 6",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🎲",
+			"title": "Conditional Type 0",
+			"description": "Câu điều kiện loại 0 - Sự thật hiển nhiên",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "blue",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Zero Conditional",
+					"content": "<h1>Câu Điều Kiện Loại 0</h1><p>If + present simple, present simple</p><ul><li>If you heat water, it boils</li><li>If it rains, the ground gets wet</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "If you ___ ice, it melts",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "heat",
+							"score": 800000,
+							"text_trans": "đun nóng"
+						},
+						{
+							"id": 2,
+							"text": "heated",
+							"score": 450000,
+							"text_trans": "đã đun nóng"
+						},
+						{
+							"id": 3,
+							"text": "will heat",
+							"score": 350000,
+							"text_trans": "sẽ đun nóng"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🔮",
+			"title": "Conditional Type 1",
+			"description": "Câu điều kiện loại 1 - Có thể xảy ra",
+			"status": "locked",
+			"progress": 0,
+			"color": "blue",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "If it rains tomorrow, I ___ at home",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "will stay",
+							"score": 800000,
+							"text_trans": "sẽ ở"
+						},
+						{
+							"id": 2,
+							"text": "stay",
+							"score": 450000,
+							"text_trans": "ở"
+						},
+						{
+							"id": 3,
+							"text": "stayed",
+							"score": 350000,
+							"text_trans": "đã ở"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "💭",
+			"title": "Conditional Type 2",
+			"description": "Câu điều kiện loại 2 - Không có thật",
+			"status": "locked",
+			"progress": 0,
+			"color": "blue",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "If I ___ a bird, I would fly",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "were",
+							"score": 800000,
+							"text_trans": "là"
+						},
+						{
+							"id": 2,
+							"text": "am",
+							"score": 450000,
+							"text_trans": "là"
+						},
+						{
+							"id": 3,
+							"text": "will be",
+							"score": 350000,
+							"text_trans": "sẽ là"
+						}
+					]
+				}
+			]
+		}
+	]
+}

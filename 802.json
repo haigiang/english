@@ -1,0 +1,126 @@
+{
+	"courseId": 802,
+	"courseName": "Câu Ước - Lớp 8",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "✨",
+			"title": "Wish in Present",
+			"description": "Ước về hiện tại",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "pink",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "I wish - Present",
+					"content": "<h1>Câu Ước Hiện Tại</h1><p>I wish + past simple (ước điều không có thật ở hiện tại)</p><ul><li>I wish I were rich</li><li>I wish I could fly</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "I wish I ___ taller",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "were",
+							"score": 800000,
+							"text_trans": "là"
+						},
+						{
+							"id": 2,
+							"text": "am",
+							"score": 450000,
+							"text_trans": "là"
+						},
+						{
+							"id": 3,
+							"text": "was",
+							"score": 750000,
+							"text_trans": "là"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "⏮️",
+			"title": "Wish in Past",
+			"description": "Ước về quá khứ",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "I wish I ___ harder last year",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "had studied",
+							"score": 800000,
+							"text_trans": "đã học"
+						},
+						{
+							"id": 2,
+							"text": "studied",
+							"score": 450000,
+							"text_trans": "học"
+						},
+						{
+							"id": 3,
+							"text": "study",
+							"score": 350000,
+							"text_trans": "học"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🔮",
+			"title": "Wish in Future",
+			"description": "Ước về tương lai",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "I wish it ___ rain tomorrow",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "wouldn't",
+							"score": 800000,
+							"text_trans": "sẽ không"
+						},
+						{
+							"id": 2,
+							"text": "won't",
+							"score": 450000,
+							"text_trans": "sẽ không"
+						},
+						{
+							"id": 3,
+							"text": "doesn't",
+							"score": 350000,
+							"text_trans": "không"
+						}
+					]
+				}
+			]
+		}
+	]
+}

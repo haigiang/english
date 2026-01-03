@@ -1,0 +1,165 @@
+{
+	"courseId": 101,
+	"courseName": "Bảng Chữ Cái Tiếng Anh - Lớp 1",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🔤",
+			"title": "Bảng chữ cái A-H",
+			"description": "Học các chữ cái từ A đến H",
+			"color": "#ffc107",
+			"order": 1,
+			"lessons": [
+				{
+					"id": 1,
+					"title": "Các chữ cái A-D",
+					"content": "<h2>Học chữ cái A, B, C, D 🎉</h2><p>Hãy cùng học 4 chữ cái đầu tiên trong bảng chữ cái tiếng Anh!</p><h3>Các chữ cái:</h3><ul><li><strong>A a</strong> - Đọc là /eɪ/ (ây) 🍎 Apple</li><li><strong>B b</strong> - Đọc là /biː/ (bi) 🎈 Balloon</li><li><strong>C c</strong> - Đọc là /siː/ (si) 🐱 Cat</li><li><strong>D d</strong> - Đọc là /diː/ (đi) 🐕 Dog</li></ul><blockquote>💡 Luyện tập: Viết mỗi chữ 5 lần!</blockquote>",
+					"order": 1
+				},
+				{
+					"id": 2,
+					"title": "Các chữ cái E-H",
+					"content": "<h2>Học chữ cái E, F, G, H</h2><ul><li><strong>E e</strong> - /iː/ (i) 🐘 Elephant</li><li><strong>F f</strong> - /ɛf/ (ép) 🐟 Fish</li><li><strong>G g</strong> - /dʒiː/ (gi) 🦒 Giraffe</li><li><strong>H h</strong> - /eɪtʃ/ (hây-ch) 🏠 House</li></ul>",
+					"order": 2
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "What letter comes after A?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "B",
+							"score": 800000,
+							"text_trans": "B"
+						},
+						{
+							"id": 2,
+							"text": "C",
+							"score": 450000,
+							"text_trans": "C"
+						},
+						{
+							"id": 3,
+							"text": "D",
+							"score": 350000,
+							"text_trans": "D"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "Which letter starts the word 'Cat'?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "C",
+							"score": 850000,
+							"text_trans": "C"
+						},
+						{
+							"id": 2,
+							"text": "A",
+							"score": 420000,
+							"text_trans": "A"
+						},
+						{
+							"id": 3,
+							"text": "T",
+							"score": 380000,
+							"text_trans": "T"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🔡",
+			"title": "Bảng chữ cái I-P",
+			"description": "Học các chữ cái từ I đến P",
+			"color": "#4caf50",
+			"order": 2,
+			"lessons": [
+				{
+					"id": 3,
+					"title": "Các chữ cái I-P",
+					"content": "<h2>Học chữ cái I đến P</h2><p>Tiếp tục với các chữ cái tiếp theo!</p>",
+					"order": 1
+				}
+			],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "What letter comes before J?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "I",
+							"score": 820000,
+							"text_trans": "I"
+						},
+						{
+							"id": 2,
+							"text": "H",
+							"score": 410000,
+							"text_trans": "H"
+						},
+						{
+							"id": 3,
+							"text": "K",
+							"score": 360000,
+							"text_trans": "K"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🅰️",
+			"title": "Bảng chữ cái Q-Z",
+			"description": "Học các chữ cái từ Q đến Z",
+			"color": "#9c27b0",
+			"order": 3,
+			"lessons": [
+				{
+					"id": 4,
+					"title": "Các chữ cái Q-Z",
+					"content": "<h2>Hoàn thành bảng chữ cái!</h2><p>Học các chữ cái cuối cùng từ Q đến Z.</p>",
+					"order": 1
+				}
+			],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "What is the last letter of the alphabet?",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Z",
+							"score": 880000,
+							"text_trans": "Z"
+						},
+						{
+							"id": 2,
+							"text": "Y",
+							"score": 440000,
+							"text_trans": "Y"
+						},
+						{
+							"id": 3,
+							"text": "X",
+							"score": 390000,
+							"text_trans": "X"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,150 @@
+{
+	"courseId": 502,
+	"courseName": "So Sánh - Lớp 5",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "⚖️",
+			"title": "So sánh hơn",
+			"description": "Comparative form",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "pink",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Comparative Adjectives",
+					"content": "<h1>So Sánh Hơn</h1><p>Cách dùng: adj + er / more + adj</p><ul><li>big → bigger</li><li>tall → taller</li><li>beautiful → more beautiful</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "This book is ___ than that one (interesting)",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "more interesting",
+							"score": 800000,
+							"text_trans": "thú vị hơn"
+						},
+						{
+							"id": 2,
+							"text": "interestinger",
+							"score": 450000,
+							"text_trans": "interestinger"
+						},
+						{
+							"id": 3,
+							"text": "most interesting",
+							"score": 350000,
+							"text_trans": "thú vị nhất"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "My brother is ___ than me (tall)",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "taller",
+							"score": 800000,
+							"text_trans": "cao hơn"
+						},
+						{
+							"id": 2,
+							"text": "more tall",
+							"score": 450000,
+							"text_trans": "more tall"
+						},
+						{
+							"id": 3,
+							"text": "tallest",
+							"score": 350000,
+							"text_trans": "cao nhất"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🏆",
+			"title": "So sánh nhất",
+			"description": "Superlative form",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "She is the ___ student in class (good)",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "best",
+							"score": 800000,
+							"text_trans": "giỏi nhất"
+						},
+						{
+							"id": 2,
+							"text": "goodest",
+							"score": 450000,
+							"text_trans": "goodest"
+						},
+						{
+							"id": 3,
+							"text": "better",
+							"score": 350000,
+							"text_trans": "tốt hơn"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "📊",
+			"title": "Ôn tập so sánh",
+			"description": "Ôn tập comparative và superlative",
+			"status": "locked",
+			"progress": 0,
+			"color": "pink",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "This is the ___ day of my life (happy)",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "happiest",
+							"score": 800000,
+							"text_trans": "vui nhất"
+						},
+						{
+							"id": 2,
+							"text": "happier",
+							"score": 450000,
+							"text_trans": "vui hơn"
+						},
+						{
+							"id": 3,
+							"text": "most happy",
+							"score": 350000,
+							"text_trans": "most happy"
+						}
+					]
+				}
+			]
+		}
+	]
+}

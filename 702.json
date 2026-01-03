@@ -1,0 +1,150 @@
+{
+	"courseId": 702,
+	"courseName": "Mệnh Đề Quan Hệ - Lớp 7",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🔗",
+			"title": "Who, Which, That",
+			"description": "Đại từ quan hệ cơ bản",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "orange",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Relative Pronouns",
+					"content": "<h1>Đại Từ Quan Hệ</h1><p>Who (người), Which (vật), That (cả hai)</p><ul><li>The man who lives next door</li><li>The book which I bought</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "The girl ___ is sitting there is my sister",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "who",
+							"score": 800000,
+							"text_trans": "mà"
+						},
+						{
+							"id": 2,
+							"text": "which",
+							"score": 450000,
+							"text_trans": "mà"
+						},
+						{
+							"id": 3,
+							"text": "what",
+							"score": 350000,
+							"text_trans": "cái gì"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"Question": "The book ___ I'm reading is interesting",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "which",
+							"score": 800000,
+							"text_trans": "mà"
+						},
+						{
+							"id": 2,
+							"text": "who",
+							"score": 450000,
+							"text_trans": "mà"
+						},
+						{
+							"id": 3,
+							"text": "where",
+							"score": 350000,
+							"text_trans": "nơi mà"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "📍",
+			"title": "Where, When, Why",
+			"description": "Trạng từ quan hệ",
+			"status": "locked",
+			"progress": 0,
+			"color": "orange",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "The city ___ I was born is beautiful",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "where",
+							"score": 800000,
+							"text_trans": "nơi mà"
+						},
+						{
+							"id": 2,
+							"text": "which",
+							"score": 450000,
+							"text_trans": "mà"
+						},
+						{
+							"id": 3,
+							"text": "when",
+							"score": 350000,
+							"text_trans": "khi mà"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🎓",
+			"title": "Ôn tập mệnh đề quan hệ",
+			"description": "Ôn tập tất cả đại từ và trạng từ",
+			"status": "locked",
+			"progress": 0,
+			"color": "orange",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 4,
+					"Question": "The reason ___ I'm late is traffic",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "why",
+							"score": 800000,
+							"text_trans": "tại sao"
+						},
+						{
+							"id": 2,
+							"text": "which",
+							"score": 450000,
+							"text_trans": "mà"
+						},
+						{
+							"id": 3,
+							"text": "where",
+							"score": 350000,
+							"text_trans": "nơi mà"
+						}
+					]
+				}
+			]
+		}
+	]
+}

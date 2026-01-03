@@ -1,0 +1,126 @@
+{
+	"courseId": 903,
+	"courseName": "Thành Ngữ và Từ Đồng Nghĩa - Lớp 9",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🎪",
+			"title": "Common Idioms",
+			"description": "Thành ngữ thông dụng",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "purple",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Everyday Idioms",
+					"content": "<h1>Thành Ngữ Thông Dụng</h1><p>Các thành ngữ hay gặp</p><ul><li>Piece of cake = Very easy</li><li>Break a leg = Good luck</li><li>Cost an arm and a leg = Very expensive</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "'A piece of cake' means ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Very easy",
+							"score": 800000,
+							"text_trans": "Rất dễ"
+						},
+						{
+							"id": 2,
+							"text": "Very difficult",
+							"score": 450000,
+							"text_trans": "Rất khó"
+						},
+						{
+							"id": 3,
+							"text": "A dessert",
+							"score": 350000,
+							"text_trans": "Một món tráng miệng"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "📚",
+			"title": "Synonyms",
+			"description": "Từ đồng nghĩa",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "A synonym for 'happy' is ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Joyful",
+							"score": 800000,
+							"text_trans": "Vui vẻ"
+						},
+						{
+							"id": 2,
+							"text": "Sad",
+							"score": 450000,
+							"text_trans": "Buồn"
+						},
+						{
+							"id": 3,
+							"text": "Angry",
+							"score": 350000,
+							"text_trans": "Giận"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🎯",
+			"title": "Ôn tập",
+			"description": "Ôn tập thành ngữ và từ đồng nghĩa",
+			"status": "locked",
+			"progress": 0,
+			"color": "purple",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "'Under the weather' means ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Feeling sick",
+							"score": 800000,
+							"text_trans": "Cảm thấy không khỏe"
+						},
+						{
+							"id": 2,
+							"text": "Feeling happy",
+							"score": 450000,
+							"text_trans": "Cảm thấy vui"
+						},
+						{
+							"id": 3,
+							"text": "Being outside",
+							"score": 350000,
+							"text_trans": "Ở bên ngoài"
+						}
+					]
+				}
+			]
+		}
+	]
+}

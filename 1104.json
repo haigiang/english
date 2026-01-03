@@ -1,0 +1,126 @@
+{
+	"courseId": 1104,
+	"courseName": "Academic Writing Skills",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "📚",
+			"title": "Essay Structure",
+			"description": "Cấu trúc bài luận",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "blue",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Introduction, Body, Conclusion",
+					"content": "<h1>Cấu Trúc Bài Luận</h1><p>Các phần chính của một bài luận</p><ul><li>Introduction: Hook + Thesis</li><li>Body: Main points + Evidence</li><li>Conclusion: Summary + Final thought</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "The thesis statement is usually in the ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Introduction",
+							"score": 800000,
+							"text_trans": "Phần mở bài"
+						},
+						{
+							"id": 2,
+							"text": "Body",
+							"score": 450000,
+							"text_trans": "Phần thân bài"
+						},
+						{
+							"id": 3,
+							"text": "Conclusion",
+							"score": 350000,
+							"text_trans": "Phần kết luận"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "🔍",
+			"title": "Critical Analysis",
+			"description": "Phân tích phê phán",
+			"status": "locked",
+			"progress": 0,
+			"color": "blue",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "In academic writing, you must support your arguments with ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Evidence and citations",
+							"score": 800000,
+							"text_trans": "Bằng chứng và trích dẫn"
+						},
+						{
+							"id": 2,
+							"text": "Personal opinions only",
+							"score": 450000,
+							"text_trans": "Chỉ ý kiến cá nhân"
+						},
+						{
+							"id": 3,
+							"text": "Long sentences",
+							"score": 350000,
+							"text_trans": "Câu dài"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "✅",
+			"title": "Editing & Proofreading",
+			"description": "Chỉnh sửa và hiệu đính",
+			"status": "locked",
+			"progress": 0,
+			"color": "blue",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "When proofreading, check for ___",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "Grammar, spelling, and punctuation",
+							"score": 800000,
+							"text_trans": "Ngữ pháp, chính tả và dấu câu"
+						},
+						{
+							"id": 2,
+							"text": "Only spelling",
+							"score": 450000,
+							"text_trans": "Chỉ chính tả"
+						},
+						{
+							"id": 3,
+							"text": "Only grammar",
+							"score": 350000,
+							"text_trans": "Chỉ ngữ pháp"
+						}
+					]
+				}
+			]
+		}
+	]
+}

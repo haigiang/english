@@ -1,0 +1,126 @@
+{
+	"courseId": 902,
+	"courseName": "Đảo Ngữ - Lớp 9",
+	"currentModuleId": 1,
+	"completedModules": 0,
+	"totalModules": 3,
+	"modules": [
+		{
+			"id": 1,
+			"emoji": "🔄",
+			"title": "Inversion Basics",
+			"description": "Cơ bản về đảo ngữ",
+			"status": "inprogress",
+			"progress": 0,
+			"color": "green",
+			"order": 1,
+			"lessons": [
+				{
+					"id": "1-1",
+					"title": "Basic Inversion",
+					"content": "<h1>Đảo Ngữ</h1><p>Đảo trợ động từ lên trước chủ ngữ để nhấn mạnh</p><ul><li>Never have I seen such a thing</li><li>Rarely does she come late</li></ul>"
+				}
+			],
+			"questions": [
+				{
+					"id": 1,
+					"Question": "Never ___ such a beautiful place",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "have I seen",
+							"score": 800000,
+							"text_trans": "tôi thấy"
+						},
+						{
+							"id": 2,
+							"text": "I have seen",
+							"score": 450000,
+							"text_trans": "tôi đã thấy"
+						},
+						{
+							"id": 3,
+							"text": "I seen",
+							"score": 350000,
+							"text_trans": "tôi thấy"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"emoji": "⭐",
+			"title": "Inversion with Only",
+			"description": "Đảo ngữ với Only",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 2,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 2,
+					"Question": "Only then ___ the truth",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "did I understand",
+							"score": 800000,
+							"text_trans": "tôi hiểu"
+						},
+						{
+							"id": 2,
+							"text": "I understood",
+							"score": 450000,
+							"text_trans": "tôi hiểu"
+						},
+						{
+							"id": 3,
+							"text": "I understand",
+							"score": 350000,
+							"text_trans": "tôi hiểu"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"emoji": "🎭",
+			"title": "Ôn tập đảo ngữ",
+			"description": "Ôn tập tất cả dạng đảo ngữ",
+			"status": "locked",
+			"progress": 0,
+			"color": "green",
+			"order": 3,
+			"lessons": [],
+			"questions": [
+				{
+					"id": 3,
+					"Question": "Seldom ___ to the cinema",
+					"Answers": [
+						{
+							"id": 1,
+							"text": "do I go",
+							"score": 800000,
+							"text_trans": "tôi đi"
+						},
+						{
+							"id": 2,
+							"text": "I go",
+							"score": 450000,
+							"text_trans": "tôi đi"
+						},
+						{
+							"id": 3,
+							"text": "I went",
+							"score": 350000,
+							"text_trans": "tôi đã đi"
+						}
+					]
+				}
+			]
+		}
+	]
+}
