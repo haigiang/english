@@ -26,48 +26,28 @@
           "type": "sentence_ordering",
           "Question": "Arrange these words to form a correct sentence",
           "explanation": "Subject + Verb + Object",
-          "words": [
+          "Answers": [
             {
               "id": 1,
-              "text": "like",
-              "correctPosition": 2
-            },
-            {
-              "id": 2,
-              "text": "I",
-              "correctPosition": 1
-            },
-            {
-              "id": 3,
-              "text": "apples",
-              "correctPosition": 3
+              "text": "I like apples",
+              "score": 800000,
+              "text_trans": "Tôi thích táo"
             }
-          ],
-          "correctSentence": "I like apples"
+          ]
         },
         {
           "id": 2,
           "type": "sentence_ordering",
           "Question": "Put these words in the correct order",
           "explanation": "Subject + Verb + Complement",
-          "words": [
+          "Answers": [
             {
               "id": 1,
-              "text": "happy",
-              "correctPosition": 3
-            },
-            {
-              "id": 2,
-              "text": "am",
-              "correctPosition": 2
-            },
-            {
-              "id": 3,
-              "text": "I",
-              "correctPosition": 1
+              "text": "I am happy",
+              "score": 800000,
+              "text_trans": "Tôi vui"
             }
-          ],
-          "correctSentence": "I am happy"
+          ]
         }
       ]
     },
@@ -85,24 +65,14 @@
           "type": "sentence_ordering",
           "Question": "Arrange these words to form a correct sentence",
           "explanation": "Subject + Verb + Object",
-          "words": [
+          "Answers": [
             {
               "id": 1,
-              "text": "like",
-              "correctPosition": 2
-            },
-            {
-              "id": 2,
-              "text": "I",
-              "correctPosition": 1
-            },
-            {
-              "id": 3,
-              "text": "apples",
-              "correctPosition": 3
+              "text": "I like apples",
+              "score": 800000,
+              "text_trans": "Tôi thích táo"
             }
-          ],
-          "correctSentence": "I like apples"
+          ]
         }
       ]
     }
