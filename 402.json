@@ -26,27 +26,13 @@
           "type": "drag_drop",
           "Question": "Drag the prepositions to complete the sentences",
           "explanation": "Learn preposition usage",
-          "items": [
+          "Answers": [
             {
               "id": 1,
-              "text": "on",
-              "correctPosition": 1
-            },
-            {
-              "id": 2,
-              "text": "in",
-              "correctPosition": 2
-            },
-            {
-              "id": 3,
-              "text": "at",
-              "correctPosition": 3
+              "text": "on in at",
+              "score": 800000,
+              "text_trans": "trên trong tại"
             }
-          ],
-          "correctOrder": [
-            "on",
-            "in",
-            "at"
           ]
         }
       ]
@@ -65,27 +51,13 @@
           "type": "drag_drop",
           "Question": "Drag the prepositions to complete the sentences",
           "explanation": "Learn preposition usage",
-          "items": [
+          "Answers": [
             {
               "id": 1,
-              "text": "on",
-              "correctPosition": 1
-            },
-            {
-              "id": 2,
-              "text": "in",
-              "correctPosition": 2
-            },
-            {
-              "id": 3,
-              "text": "at",
-              "correctPosition": 3
+              "text": "on in at",
+              "score": 800000,
+              "text_trans": "trên trong tại"
             }
-          ],
-          "correctOrder": [
-            "on",
-            "in",
-            "at"
           ]
         }
       ]
