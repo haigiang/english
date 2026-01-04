@@ -1,126 +1,117 @@
 {
-	"courseId": 1003,
-	"courseName": "Luyện Nghe Cơ Bản",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "👂",
-			"title": "Simple Conversations",
-			"description": "Hội thoại đơn giản",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "purple",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "At the Store",
-					"content": "<h1>Tại Cửa Hàng</h1><p>Nghe và hiểu hội thoại mua sắm</p><ul><li>How much is this? = Cái này bao nhiêu tiền?</li><li>Can I help you? = Tôi có thể giúp gì?</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "When shopping, to ask the price you say ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "How much is this?",
-							"score": 800000,
-							"text_trans": "Cái này bao nhiêu tiền?"
-						},
-						{
-							"id": 2,
-							"text": "How are you?",
-							"score": 450000,
-							"text_trans": "Bạn khỏe không?"
-						},
-						{
-							"id": 3,
-							"text": "What's your name?",
-							"score": 350000,
-							"text_trans": "Tên bạn là gì?"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "🍽️",
-			"title": "At the Restaurant",
-			"description": "Tại nhà hàng",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "To order food, you can say ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "I'd like a hamburger, please",
-							"score": 800000,
-							"text_trans": "Tôi muốn một cái hamburger"
-						},
-						{
-							"id": 2,
-							"text": "How old are you?",
-							"score": 450000,
-							"text_trans": "Bạn bao nhiêu tuổi?"
-						},
-						{
-							"id": 3,
-							"text": "Where is the bathroom?",
-							"score": 350000,
-							"text_trans": "Nhà vệ sinh ở đâu?"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🚇",
-			"title": "Getting Around",
-			"description": "Di chuyển",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "To ask for directions, say ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "How do I get to the station?",
-							"score": 800000,
-							"text_trans": "Tôi đến ga như thế nào?"
-						},
-						{
-							"id": 2,
-							"text": "What's your job?",
-							"score": 450000,
-							"text_trans": "Công việc của bạn là gì?"
-						},
-						{
-							"id": 3,
-							"text": "I'm from Vietnam",
-							"score": 350000,
-							"text_trans": "Tôi đến từ Việt Nam"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 1003,
+  "courseName": "All Types Advanced - Luyện Nghe",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "drag_drop",
+          "Question": "Drag the prepositions to complete the sentences",
+          "explanation": "Learn preposition usage",
+          "items": [
+            {
+              "id": 1,
+              "text": "on",
+              "correctPosition": 1
+            },
+            {
+              "id": 2,
+              "text": "in",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "at",
+              "correctPosition": 3
+            }
+          ],
+          "correctOrder": [
+            "on",
+            "in",
+            "at"
+          ]
+        },
+        {
+          "id": 2,
+          "type": "cloze_test",
+          "Question": "Fill in the blanks with correct past tense verbs",
+          "explanation": "Complete the paragraph using past tense",
+          "text": "Yesterday, I ___(1)___ to the park. I ___(2)___ my friend there. We ___(3)___ football together.",
+          "blanks": [
+            {
+              "id": 1,
+              "correctAnswers": [
+                "went",
+                "walked"
+              ],
+              "position": 1
+            },
+            {
+              "id": 2,
+              "correctAnswers": [
+                "met",
+                "saw"
+              ],
+              "position": 2
+            },
+            {
+              "id": 3,
+              "correctAnswers": [
+                "played"
+              ],
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "audio_question",
+          "Question": "Listen and choose the correct comparative form",
+          "explanation": "Practice listening for comparatives",
+          "audioUrl": "/audio/bigger.mp3",
+          "audioText": "bigger",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "bigger",
+              "score": 800000
+            },
+            {
+              "id": 2,
+              "text": "more big",
+              "score": 200000
+            },
+            {
+              "id": 3,
+              "text": "biggest",
+              "score": 300000
+            },
+            {
+              "id": 4,
+              "text": "big",
+              "score": 100000
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

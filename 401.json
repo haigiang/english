@@ -1,150 +1,119 @@
 {
-	"courseId": 401,
-	"courseName": "Thì Hiện Tại - Lớp 4",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "⏰",
-			"title": "Present Simple",
-			"description": "Thì hiện tại đơn",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "blue",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Present Simple Basics",
-					"content": "<h1>Thì Hiện Tại Đơn</h1><p>Dùng để diễn tả thói quen, sự thật</p><ul><li>I play</li><li>You play</li><li>He/She/It plays</li><li>We/They play</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "She ___ to school every day",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "goes",
-							"score": 800000,
-							"text_trans": "đi (goes)"
-						},
-						{
-							"id": 2,
-							"text": "go",
-							"score": 450000,
-							"text_trans": "đi (go)"
-						},
-						{
-							"id": 3,
-							"text": "going",
-							"score": 350000,
-							"text_trans": "đang đi"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "I ___ English",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "speak",
-							"score": 800000,
-							"text_trans": "nói"
-						},
-						{
-							"id": 2,
-							"text": "speaks",
-							"score": 450000,
-							"text_trans": "speaks"
-						},
-						{
-							"id": 3,
-							"text": "speaking",
-							"score": 350000,
-							"text_trans": "đang nói"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "🔄",
-			"title": "Present Continuous",
-			"description": "Thì hiện tại tiếp diễn",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "I ___ studying now",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "am",
-							"score": 800000,
-							"text_trans": "am"
-						},
-						{
-							"id": 2,
-							"text": "is",
-							"score": 450000,
-							"text_trans": "is"
-						},
-						{
-							"id": 3,
-							"text": "are",
-							"score": 350000,
-							"text_trans": "are"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "📚",
-			"title": "Ôn tập thì hiện tại",
-			"description": "Ôn tập Present Simple và Continuous",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "They ___ playing football now",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "are",
-							"score": 800000,
-							"text_trans": "are"
-						},
-						{
-							"id": 2,
-							"text": "is",
-							"score": 450000,
-							"text_trans": "is"
-						},
-						{
-							"id": 3,
-							"text": "am",
-							"score": 350000,
-							"text_trans": "am"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 401,
+  "courseName": "Dropdown - Thì Hiện Tại",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 2,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "📋",
+      "title": "Dropdown Selection Practice",
+      "description": "Luyện tập dạng dropdown_selection",
+      "color": "#607d8b",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "<h2>Dropdown - Thì Hiện Tại</h2><p>Practice questions using dropdown_selection format.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "dropdown_selection",
+          "Question": "Choose the correct verb form",
+          "explanation": "Use present simple tense correctly",
+          "sentence": "She ___(1)___ to school every day.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "go",
+                  "isCorrect": false
+                },
+                {
+                  "text": "goes",
+                  "isCorrect": true
+                },
+                {
+                  "text": "going",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "dropdown_selection",
+          "Question": "Complete the sentence",
+          "explanation": "Subject-verb agreement",
+          "sentence": "They ___(1)___ football on weekends.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "play",
+                  "isCorrect": true
+                },
+                {
+                  "text": "plays",
+                  "isCorrect": false
+                },
+                {
+                  "text": "playing",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "emoji": "📚",
+      "title": "Advanced Practice",
+      "description": "Câu hỏi nâng cao",
+      "color": "#4caf50",
+      "order": 2,
+      "lessons": [],
+      "questions": [
+        {
+          "id": 1,
+          "type": "dropdown_selection",
+          "Question": "Choose the correct verb form",
+          "explanation": "Use present simple tense correctly",
+          "sentence": "She ___(1)___ to school every day.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "go",
+                  "isCorrect": false
+                },
+                {
+                  "text": "goes",
+                  "isCorrect": true
+                },
+                {
+                  "text": "going",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,135 +1,127 @@
 {
-	"courseId": 601,
-	"courseName": "Ngữ Pháp Lớp 6 - Thì Hiện Tại",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "⏰",
-			"title": "Thì Hiện Tại Đơn",
-			"description": "Học về thì hiện tại đơn",
-			"color": "#2196f3",
-			"order": 1,
-			"lessons": [
-				{
-					"id": 1,
-					"title": "Cấu trúc thì hiện tại đơn",
-					"content": "<h2>Thì Hiện Tại Đơn (Simple Present)</h2><h3>Cấu trúc:</h3><p><strong>Khẳng định:</strong> S + V(s/es)</p><p><strong>Phủ định:</strong> S + don't/doesn't + V</p><p><strong>Nghi vấn:</strong> Do/Does + S + V?</p><h3>Ví dụ:</h3><ul><li>I play football. (Tôi chơi bóng đá)</li><li>She plays tennis. (Cô ấy chơi tennis)</li><li>They don't like coffee. (Họ không thích cà phê)</li></ul>",
-					"order": 1
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "He ___ to school every day.",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "goes",
-							"score": 850000,
-							"text_trans": "goes (đi - ngôi thứ 3 số ít)"
-						},
-						{
-							"id": 2,
-							"text": "go",
-							"score": 420000,
-							"text_trans": "go (đi)"
-						},
-						{
-							"id": 3,
-							"text": "going",
-							"score": 350000,
-							"text_trans": "going (đang đi)"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "🔄",
-			"title": "Thì Hiện Tại Tiếp Diễn",
-			"description": "Học về thì hiện tại tiếp diễn",
-			"color": "#4caf50",
-			"order": 2,
-			"lessons": [
-				{
-					"id": 2,
-					"title": "Cấu trúc thì hiện tại tiếp diễn",
-					"content": "<h2>Thì Hiện Tại Tiếp Diễn (Present Continuous)</h2><h3>Cấu trúc:</h3><p><strong>Khẳng định:</strong> S + am/is/are + V-ing</p><p><strong>Phủ định:</strong> S + am/is/are + not + V-ing</p><p><strong>Nghi vấn:</strong> Am/Is/Are + S + V-ing?</p><h3>Ví dụ:</h3><ul><li>I am studying now. (Tôi đang học bây giờ)</li><li>She is reading a book. (Cô ấy đang đọc sách)</li></ul>",
-					"order": 1
-				}
-			],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "She ___ a book now.",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "is reading",
-							"score": 870000,
-							"text_trans": "is reading (đang đọc)"
-						},
-						{
-							"id": 2,
-							"text": "reads",
-							"score": 430000,
-							"text_trans": "reads (đọc)"
-						},
-						{
-							"id": 3,
-							"text": "read",
-							"score": 380000,
-							"text_trans": "read (đọc)"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "✅",
-			"title": "Thì Hiện Tại Hoàn Thành",
-			"description": "Học về thì hiện tại hoàn thành",
-			"color": "#9c27b0",
-			"order": 3,
-			"lessons": [
-				{
-					"id": 3,
-					"title": "Cấu trúc thì hiện tại hoàn thành",
-					"content": "<h2>Thì Hiện Tại Hoàn Thành (Present Perfect)</h2><h3>Cấu trúc:</h3><p><strong>Khẳng định:</strong> S + have/has + V3/ed</p><p><strong>Phủ định:</strong> S + have/has + not + V3/ed</p><p><strong>Nghi vấn:</strong> Have/Has + S + V3/ed?</p>",
-					"order": 1
-				}
-			],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "I ___ my homework.",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "have finished",
-							"score": 890000,
-							"text_trans": "have finished (đã hoàn thành)"
-						},
-						{
-							"id": 2,
-							"text": "finish",
-							"score": 450000,
-							"text_trans": "finish (hoàn thành)"
-						},
-						{
-							"id": 3,
-							"text": "finished",
-							"score": 400000,
-							"text_trans": "finished (đã hoàn thành)"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 601,
+  "courseName": "Mixed Basic - Lớp 6",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "Question": "What letter comes after A?",
+          "explanation": "B is the second letter in the alphabet",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "B",
+              "score": 800000,
+              "text_trans": "B"
+            },
+            {
+              "id": 2,
+              "text": "C",
+              "score": 450000,
+              "text_trans": "C"
+            },
+            {
+              "id": 3,
+              "text": "D",
+              "score": 350000,
+              "text_trans": "D"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "Question": "Which letter comes before D?",
+          "explanation": "C comes before D",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "A",
+              "score": 300000,
+              "text_trans": "A"
+            },
+            {
+              "id": 2,
+              "text": "B",
+              "score": 400000,
+              "text_trans": "B"
+            },
+            {
+              "id": 3,
+              "text": "C",
+              "score": 800000,
+              "text_trans": "C"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "Question": "One plus one equals two. (1 + 1 = 2)",
+          "explanation": "This is correct: 1 + 1 = 2",
+          "correctAnswer": true
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "Question": "Five is greater than ten. (5 > 10)",
+          "explanation": "This is false: 5 is less than 10",
+          "correctAnswer": false
+        },
+        {
+          "id": 5,
+          "type": "fill_blank",
+          "Question": "The sky is ___.",
+          "explanation": "The sky is blue",
+          "correctAnswers": [
+            "blue"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 6,
+          "type": "fill_blank",
+          "Question": "Grass is ___.",
+          "explanation": "Grass is green",
+          "correctAnswers": [
+            "green"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        }
+      ]
+    }
+  ]
 }

@@ -1,126 +1,151 @@
 {
-	"courseId": 801,
-	"courseName": "Câu Tường Thuật - Lớp 8",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "💬",
-			"title": "Reported Statements",
-			"description": "Câu trần thuật gián tiếp",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "purple",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Basic Reported Speech",
-					"content": "<h1>Câu Tường Thuật</h1><p>Chuyển từ trực tiếp sang gián tiếp</p><ul><li>He said, 'I am tired' → He said (that) he was tired</li><li>Lùi thì, đổi đại từ</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "She said, 'I like coffee' → She said she ___ coffee",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "liked",
-							"score": 800000,
-							"text_trans": "thích"
-						},
-						{
-							"id": 2,
-							"text": "like",
-							"score": 450000,
-							"text_trans": "thích"
-						},
-						{
-							"id": 3,
-							"text": "likes",
-							"score": 350000,
-							"text_trans": "thích"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "❓",
-			"title": "Reported Questions",
-			"description": "Câu hỏi gián tiếp",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "'Where do you live?' → He asked me where I ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "lived",
-							"score": 800000,
-							"text_trans": "sống"
-						},
-						{
-							"id": 2,
-							"text": "live",
-							"score": 450000,
-							"text_trans": "sống"
-						},
-						{
-							"id": 3,
-							"text": "living",
-							"score": 350000,
-							"text_trans": "đang sống"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "📢",
-			"title": "Reported Commands",
-			"description": "Câu mệnh lệnh gián tiếp",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "'Open the door!' → She told me ___ the door",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "to open",
-							"score": 800000,
-							"text_trans": "mở"
-						},
-						{
-							"id": 2,
-							"text": "open",
-							"score": 450000,
-							"text_trans": "mở"
-						},
-						{
-							"id": 3,
-							"text": "opened",
-							"score": 350000,
-							"text_trans": "đã mở"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 801,
+  "courseName": "Mixed Advanced 2 - Lớp 8",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "fill_blank",
+          "Question": "The sky is ___.",
+          "explanation": "The sky is blue",
+          "correctAnswers": [
+            "blue"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "Question": "Grass is ___.",
+          "explanation": "Grass is green",
+          "correctAnswers": [
+            "green"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 3,
+          "type": "sentence_ordering",
+          "Question": "Arrange these words to form a correct sentence",
+          "explanation": "Subject + Verb + Object",
+          "words": [
+            {
+              "id": 1,
+              "text": "like",
+              "correctPosition": 2
+            },
+            {
+              "id": 2,
+              "text": "I",
+              "correctPosition": 1
+            },
+            {
+              "id": 3,
+              "text": "apples",
+              "correctPosition": 3
+            }
+          ],
+          "correctSentence": "I like apples"
+        },
+        {
+          "id": 4,
+          "type": "sentence_ordering",
+          "Question": "Put these words in the correct order",
+          "explanation": "Subject + Verb + Complement",
+          "words": [
+            {
+              "id": 1,
+              "text": "happy",
+              "correctPosition": 3
+            },
+            {
+              "id": 2,
+              "text": "am",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "I",
+              "correctPosition": 1
+            }
+          ],
+          "correctSentence": "I am happy"
+        },
+        {
+          "id": 5,
+          "type": "dropdown_selection",
+          "Question": "Choose the correct verb form",
+          "explanation": "Use present simple tense correctly",
+          "sentence": "She ___(1)___ to school every day.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "go",
+                  "isCorrect": false
+                },
+                {
+                  "text": "goes",
+                  "isCorrect": true
+                },
+                {
+                  "text": "going",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "dropdown_selection",
+          "Question": "Complete the sentence",
+          "explanation": "Subject-verb agreement",
+          "sentence": "They ___(1)___ football on weekends.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "play",
+                  "isCorrect": true
+                },
+                {
+                  "text": "plays",
+                  "isCorrect": false
+                },
+                {
+                  "text": "playing",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

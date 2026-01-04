@@ -1,150 +1,82 @@
 {
-	"courseId": 103,
-	"courseName": "Màu Sắc - Lớp 1",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "🎨",
-			"title": "Màu cơ bản",
-			"description": "Học về các màu cơ bản",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "pink",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Red, Blue, Yellow",
-					"content": "<h1>Màu Cơ Bản</h1><p>Học về ba màu chính</p><ul><li>Red = Đỏ</li><li>Blue = Xanh dương</li><li>Yellow = Vàng</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "What color is the sky?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Blue",
-							"score": 800000,
-							"text_trans": "Xanh dương"
-						},
-						{
-							"id": 2,
-							"text": "Red",
-							"score": 450000,
-							"text_trans": "Đỏ"
-						},
-						{
-							"id": 3,
-							"text": "Green",
-							"score": 350000,
-							"text_trans": "Xanh lá"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "An apple is usually ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Red",
-							"score": 800000,
-							"text_trans": "Đỏ"
-						},
-						{
-							"id": 2,
-							"text": "Blue",
-							"score": 450000,
-							"text_trans": "Xanh dương"
-						},
-						{
-							"id": 3,
-							"text": "Purple",
-							"score": 350000,
-							"text_trans": "Tím"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "🌈",
-			"title": "Màu phụ",
-			"description": "Học về các màu phụ",
-			"status": "locked",
-			"progress": 0,
-			"color": "pink",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "Green = Blue + ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Yellow",
-							"score": 800000,
-							"text_trans": "Vàng"
-						},
-						{
-							"id": 2,
-							"text": "Red",
-							"score": 450000,
-							"text_trans": "Đỏ"
-						},
-						{
-							"id": 3,
-							"text": "White",
-							"score": 350000,
-							"text_trans": "Trắng"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🎪",
-			"title": "Ôn tập màu sắc",
-			"description": "Ôn tập tất cả các màu",
-			"status": "locked",
-			"progress": 0,
-			"color": "pink",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "What color is the sun?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Yellow",
-							"score": 800000,
-							"text_trans": "Vàng"
-						},
-						{
-							"id": 2,
-							"text": "Orange",
-							"score": 750000,
-							"text_trans": "Cam"
-						},
-						{
-							"id": 3,
-							"text": "Red",
-							"score": 450000,
-							"text_trans": "Đỏ"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 103,
+  "courseName": "Fill in the Blank - Màu Sắc",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 2,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "✏️",
+      "title": "Fill Blank Practice",
+      "description": "Luyện tập dạng fill_blank",
+      "color": "#e91e63",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "<h2>Fill in the Blank - Màu Sắc</h2><p>Practice questions using fill_blank format.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "fill_blank",
+          "Question": "The sky is ___.",
+          "explanation": "The sky is blue",
+          "correctAnswers": [
+            "blue"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "Question": "Grass is ___.",
+          "explanation": "Grass is green",
+          "correctAnswers": [
+            "green"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 3,
+          "type": "fill_blank",
+          "Question": "A banana is ___.",
+          "explanation": "A banana is yellow",
+          "correctAnswers": [
+            "yellow"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "emoji": "📚",
+      "title": "Advanced Practice",
+      "description": "Câu hỏi nâng cao",
+      "color": "#4caf50",
+      "order": 2,
+      "lessons": [],
+      "questions": [
+        {
+          "id": 1,
+          "type": "fill_blank",
+          "Question": "The sky is ___.",
+          "explanation": "The sky is blue",
+          "correctAnswers": [
+            "blue"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        }
+      ]
+    }
+  ]
 }

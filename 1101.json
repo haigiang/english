@@ -1,156 +1,253 @@
 {
-	"courseId": 1101,
-	"courseName": "Tiếng Anh Giao Tiếp Nâng Cao",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "💼",
-			"title": "Business English",
-			"description": "Tiếng Anh thương mại",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "purple",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Meeting Vocabulary",
-					"content": "<h1>Meeting Vocabulary</h1><p>Essential vocabulary for business meetings</p><ul><li>Agenda = Chương trình nghị sự</li><li>Minutes = Biên bản cuộc họp</li><li>Action items = Nhiệm vụ cần thực hiện</li><li>Follow-up = Theo dõi</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "What do we call a list of topics to discuss in a meeting?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Agenda",
-							"score": 800000,
-							"text_trans": "Chương trình nghị sự"
-						},
-						{
-							"id": 2,
-							"text": "Minutes",
-							"score": 450000,
-							"text_trans": "Biên bản"
-						},
-						{
-							"id": 3,
-							"text": "Schedule",
-							"score": 350000,
-							"text_trans": "Lịch trình"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "Could you please ___ on that proposal by Friday?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "follow up",
-							"score": 800000,
-							"text_trans": "theo dõi"
-						},
-						{
-							"id": 2,
-							"text": "follow down",
-							"score": 450000,
-							"text_trans": "follow down"
-						},
-						{
-							"id": 3,
-							"text": "follow through",
-							"score": 350000,
-							"text_trans": "follow through"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "✈️",
-			"title": "Travel English",
-			"description": "Tiếng Anh du lịch",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 2,
-			"lessons": [
-				{
-					"id": "2-1",
-					"title": "At the Airport",
-					"content": "<h1>At the Airport</h1><p>English for airport situations</p>"
-				}
-			],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "Where do you check in your luggage?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Check-in counter",
-							"score": 800000,
-							"text_trans": "Quầy làm thủ tục"
-						},
-						{
-							"id": 2,
-							"text": "Gate",
-							"score": 450000,
-							"text_trans": "Cổng lên máy bay"
-						},
-						{
-							"id": 3,
-							"text": "Customs",
-							"score": 350000,
-							"text_trans": "Hải quan"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🎭",
-			"title": "Idioms & Expressions",
-			"description": "Thành ngữ và cách diễn đạt",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "'Break the ice' means to ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Start a conversation",
-							"score": 800000,
-							"text_trans": "Bắt đầu cuộc trò chuyện"
-						},
-						{
-							"id": 2,
-							"text": "Stop talking",
-							"score": 450000,
-							"text_trans": "Ngừng nói chuyện"
-						},
-						{
-							"id": 3,
-							"text": "Make ice",
-							"score": 350000,
-							"text_trans": "Làm đá"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 1101,
+  "courseName": "Complete Mix 1 - Giao Tiếp",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "Question": "What letter comes after A?",
+          "explanation": "B is the second letter in the alphabet",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "B",
+              "score": 800000,
+              "text_trans": "B"
+            },
+            {
+              "id": 2,
+              "text": "C",
+              "score": 450000,
+              "text_trans": "C"
+            },
+            {
+              "id": 3,
+              "text": "D",
+              "score": 350000,
+              "text_trans": "D"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "Question": "Which letter comes before D?",
+          "explanation": "C comes before D",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "A",
+              "score": 300000,
+              "text_trans": "A"
+            },
+            {
+              "id": 2,
+              "text": "B",
+              "score": 400000,
+              "text_trans": "B"
+            },
+            {
+              "id": 3,
+              "text": "C",
+              "score": 800000,
+              "text_trans": "C"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "Question": "One plus one equals two. (1 + 1 = 2)",
+          "explanation": "This is correct: 1 + 1 = 2",
+          "correctAnswer": true
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "Question": "Five is greater than ten. (5 > 10)",
+          "explanation": "This is false: 5 is less than 10",
+          "correctAnswer": false
+        },
+        {
+          "id": 5,
+          "type": "fill_blank",
+          "Question": "The sky is ___.",
+          "explanation": "The sky is blue",
+          "correctAnswers": [
+            "blue"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 6,
+          "type": "fill_blank",
+          "Question": "Grass is ___.",
+          "explanation": "Grass is green",
+          "correctAnswers": [
+            "green"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 7,
+          "type": "matching",
+          "Question": "Match each object with its Vietnamese translation",
+          "explanation": "Learn object vocabulary",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Book"
+            },
+            {
+              "id": 2,
+              "text": "Pen"
+            },
+            {
+              "id": 3,
+              "text": "Chair"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Cái ghế"
+            },
+            {
+              "id": "b",
+              "text": "Quyển sách"
+            },
+            {
+              "id": "c",
+              "text": "Cái bút"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "c",
+            "3": "a"
+          }
+        },
+        {
+          "id": 8,
+          "type": "matching",
+          "Question": "Match each room with its function",
+          "explanation": "Learn about rooms in a house",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Kitchen"
+            },
+            {
+              "id": 2,
+              "text": "Bedroom"
+            },
+            {
+              "id": 3,
+              "text": "Bathroom"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Sleep"
+            },
+            {
+              "id": "b",
+              "text": "Cook"
+            },
+            {
+              "id": "c",
+              "text": "Wash"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "a",
+            "3": "c"
+          }
+        },
+        {
+          "id": 9,
+          "type": "sentence_ordering",
+          "Question": "Arrange these words to form a correct sentence",
+          "explanation": "Subject + Verb + Object",
+          "words": [
+            {
+              "id": 1,
+              "text": "like",
+              "correctPosition": 2
+            },
+            {
+              "id": 2,
+              "text": "I",
+              "correctPosition": 1
+            },
+            {
+              "id": 3,
+              "text": "apples",
+              "correctPosition": 3
+            }
+          ],
+          "correctSentence": "I like apples"
+        },
+        {
+          "id": 10,
+          "type": "sentence_ordering",
+          "Question": "Put these words in the correct order",
+          "explanation": "Subject + Verb + Complement",
+          "words": [
+            {
+              "id": 1,
+              "text": "happy",
+              "correctPosition": 3
+            },
+            {
+              "id": 2,
+              "text": "am",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "I",
+              "correctPosition": 1
+            }
+          ],
+          "correctSentence": "I am happy"
+        }
+      ]
+    }
+  ]
 }

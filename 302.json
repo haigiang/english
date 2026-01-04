@@ -1,150 +1,134 @@
 {
-	"courseId": 302,
-	"courseName": "Gia Đình và Bạn Bè - Lớp 3",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "👨‍👩‍👧‍👦",
-			"title": "Thành viên gia đình",
-			"description": "Học về các thành viên trong gia đình",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "purple",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Family Members",
-					"content": "<h1>Gia Đình</h1><p>Các thành viên trong gia đình</p><ul><li>Father = Bố</li><li>Mother = Mẹ</li><li>Brother = Anh/Em trai</li><li>Sister = Chị/Em gái</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "My dad is my ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Father",
-							"score": 800000,
-							"text_trans": "Cha"
-						},
-						{
-							"id": 2,
-							"text": "Mother",
-							"score": 450000,
-							"text_trans": "Mẹ"
-						},
-						{
-							"id": 3,
-							"text": "Brother",
-							"score": 350000,
-							"text_trans": "Anh trai"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "My mom is my ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Mother",
-							"score": 800000,
-							"text_trans": "Mẹ"
-						},
-						{
-							"id": 2,
-							"text": "Father",
-							"score": 450000,
-							"text_trans": "Cha"
-						},
-						{
-							"id": 3,
-							"text": "Sister",
-							"score": 350000,
-							"text_trans": "Chị gái"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "👫",
-			"title": "Bạn bè",
-			"description": "Học về bạn bè",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "Someone you like and play with is your ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Friend",
-							"score": 800000,
-							"text_trans": "Bạn"
-						},
-						{
-							"id": 2,
-							"text": "Teacher",
-							"score": 450000,
-							"text_trans": "Giáo viên"
-						},
-						{
-							"id": 3,
-							"text": "Enemy",
-							"score": 350000,
-							"text_trans": "Kẻ thù"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "💖",
-			"title": "Ôn tập",
-			"description": "Ôn tập về gia đình và bạn bè",
-			"status": "locked",
-			"progress": 0,
-			"color": "purple",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "How many parents do you have?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Two",
-							"score": 800000,
-							"text_trans": "Hai"
-						},
-						{
-							"id": 2,
-							"text": "One",
-							"score": 450000,
-							"text_trans": "Một"
-						},
-						{
-							"id": 3,
-							"text": "Three",
-							"score": 350000,
-							"text_trans": "Ba"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 302,
+  "courseName": "Image Selection - Gia Đình",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 2,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🖼️",
+      "title": "Image Selection Practice",
+      "description": "Luyện tập dạng image_selection",
+      "color": "#795548",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "<h2>Image Selection - Gia Đình</h2><p>Practice questions using image_selection format.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "image_selection",
+          "Question": "Which image shows a 'family'?",
+          "explanation": "Recognize family vocabulary",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/family.jpg",
+              "alt": "A family",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "url": "/images/dog.jpg",
+              "alt": "A dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "url": "/images/house.jpg",
+              "alt": "A house",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/car.jpg",
+              "alt": "A car",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "image_selection",
+          "Question": "Select the image of 'mother'",
+          "explanation": "Learn family members",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/father.jpg",
+              "alt": "Father",
+              "isCorrect": false
+            },
+            {
+              "id": 2,
+              "url": "/images/mother.jpg",
+              "alt": "Mother",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "url": "/images/brother.jpg",
+              "alt": "Brother",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/sister.jpg",
+              "alt": "Sister",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "emoji": "📚",
+      "title": "Advanced Practice",
+      "description": "Câu hỏi nâng cao",
+      "color": "#4caf50",
+      "order": 2,
+      "lessons": [],
+      "questions": [
+        {
+          "id": 1,
+          "type": "image_selection",
+          "Question": "Which image shows a 'family'?",
+          "explanation": "Recognize family vocabulary",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/family.jpg",
+              "alt": "A family",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "url": "/images/dog.jpg",
+              "alt": "A dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "url": "/images/house.jpg",
+              "alt": "A house",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/car.jpg",
+              "alt": "A car",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,126 +1,211 @@
 {
-	"courseId": 602,
-	"courseName": "Câu Điều Kiện - Lớp 6",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "🎲",
-			"title": "Conditional Type 0",
-			"description": "Câu điều kiện loại 0 - Sự thật hiển nhiên",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "blue",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Zero Conditional",
-					"content": "<h1>Câu Điều Kiện Loại 0</h1><p>If + present simple, present simple</p><ul><li>If you heat water, it boils</li><li>If it rains, the ground gets wet</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "If you ___ ice, it melts",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "heat",
-							"score": 800000,
-							"text_trans": "đun nóng"
-						},
-						{
-							"id": 2,
-							"text": "heated",
-							"score": 450000,
-							"text_trans": "đã đun nóng"
-						},
-						{
-							"id": 3,
-							"text": "will heat",
-							"score": 350000,
-							"text_trans": "sẽ đun nóng"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "🔮",
-			"title": "Conditional Type 1",
-			"description": "Câu điều kiện loại 1 - Có thể xảy ra",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "If it rains tomorrow, I ___ at home",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "will stay",
-							"score": 800000,
-							"text_trans": "sẽ ở"
-						},
-						{
-							"id": 2,
-							"text": "stay",
-							"score": 450000,
-							"text_trans": "ở"
-						},
-						{
-							"id": 3,
-							"text": "stayed",
-							"score": 350000,
-							"text_trans": "đã ở"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "💭",
-			"title": "Conditional Type 2",
-			"description": "Câu điều kiện loại 2 - Không có thật",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "If I ___ a bird, I would fly",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "were",
-							"score": 800000,
-							"text_trans": "là"
-						},
-						{
-							"id": 2,
-							"text": "am",
-							"score": 450000,
-							"text_trans": "là"
-						},
-						{
-							"id": 3,
-							"text": "will be",
-							"score": 350000,
-							"text_trans": "sẽ là"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 602,
+  "courseName": "Mixed Intermediate 1 - Lớp 6",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_select",
+          "Question": "Which of these are mammals? (Select all)",
+          "explanation": "Dogs and cats are mammals, fish and birds are not",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Dog",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Cat",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "text": "Fish",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "text": "Bird",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "multiple_select",
+          "Question": "Which animals can fly? (Select all)",
+          "explanation": "Birds and bats can fly",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Bird",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "text": "Bat",
+              "isCorrect": true
+            },
+            {
+              "id": 4,
+              "text": "Cat",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "matching",
+          "Question": "Match each object with its Vietnamese translation",
+          "explanation": "Learn object vocabulary",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Book"
+            },
+            {
+              "id": 2,
+              "text": "Pen"
+            },
+            {
+              "id": 3,
+              "text": "Chair"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Cái ghế"
+            },
+            {
+              "id": "b",
+              "text": "Quyển sách"
+            },
+            {
+              "id": "c",
+              "text": "Cái bút"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "c",
+            "3": "a"
+          }
+        },
+        {
+          "id": 4,
+          "type": "matching",
+          "Question": "Match each room with its function",
+          "explanation": "Learn about rooms in a house",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Kitchen"
+            },
+            {
+              "id": 2,
+              "text": "Bedroom"
+            },
+            {
+              "id": 3,
+              "text": "Bathroom"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Sleep"
+            },
+            {
+              "id": "b",
+              "text": "Cook"
+            },
+            {
+              "id": "c",
+              "text": "Wash"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "a",
+            "3": "c"
+          }
+        },
+        {
+          "id": 5,
+          "type": "sentence_ordering",
+          "Question": "Arrange these words to form a correct sentence",
+          "explanation": "Subject + Verb + Object",
+          "words": [
+            {
+              "id": 1,
+              "text": "like",
+              "correctPosition": 2
+            },
+            {
+              "id": 2,
+              "text": "I",
+              "correctPosition": 1
+            },
+            {
+              "id": 3,
+              "text": "apples",
+              "correctPosition": 3
+            }
+          ],
+          "correctSentence": "I like apples"
+        },
+        {
+          "id": 6,
+          "type": "sentence_ordering",
+          "Question": "Put these words in the correct order",
+          "explanation": "Subject + Verb + Complement",
+          "words": [
+            {
+              "id": 1,
+              "text": "happy",
+              "correctPosition": 3
+            },
+            {
+              "id": 2,
+              "text": "am",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "I",
+              "correctPosition": 1
+            }
+          ],
+          "correctSentence": "I am happy"
+        }
+      ]
+    }
+  ]
 }

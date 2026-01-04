@@ -1,150 +1,125 @@
 {
-	"courseId": 201,
-	"courseName": "Động vật - Lớp 2",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "🐶",
-			"title": "Động vật nhà",
-			"description": "Học về các động vật trong nhà",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "orange",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Con chó và con mèo",
-					"content": "<h1>Con chó và con mèo</h1><p>Học về chó và mèo</p><ul><li>Dog = Con chó</li><li>Cat = Con mèo</li><li>Puppy = Con chó con</li><li>Kitten = Con mèo con</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "What animal says 'meow'?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Cat",
-							"score": 800000,
-							"text_trans": "Con mèo"
-						},
-						{
-							"id": 2,
-							"text": "Dog",
-							"score": 450000,
-							"text_trans": "Con chó"
-						},
-						{
-							"id": 3,
-							"text": "Bird",
-							"score": 350000,
-							"text_trans": "Con chim"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "A baby dog is called a ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Puppy",
-							"score": 800000,
-							"text_trans": "Puppy"
-						},
-						{
-							"id": 2,
-							"text": "Kitten",
-							"score": 450000,
-							"text_trans": "Kitten"
-						},
-						{
-							"id": 3,
-							"text": "Cub",
-							"score": 350000,
-							"text_trans": "Cub"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "🦁",
-			"title": "Động vật hoang dã",
-			"description": "Học về các động vật hoang dã",
-			"status": "locked",
-			"progress": 0,
-			"color": "orange",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "The king of the jungle is the ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Lion",
-							"score": 800000,
-							"text_trans": "Sư tử"
-						},
-						{
-							"id": 2,
-							"text": "Tiger",
-							"score": 450000,
-							"text_trans": "Hổ"
-						},
-						{
-							"id": 3,
-							"text": "Bear",
-							"score": 350000,
-							"text_trans": "Gấu"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🐠",
-			"title": "Động vật dưới nước",
-			"description": "Học về các loài sống dưới nước",
-			"status": "locked",
-			"progress": 0,
-			"color": "orange",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "Which animal lives in water?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Fish",
-							"score": 800000,
-							"text_trans": "Cá"
-						},
-						{
-							"id": 2,
-							"text": "Dog",
-							"score": 450000,
-							"text_trans": "Chó"
-						},
-						{
-							"id": 3,
-							"text": "Bird",
-							"score": 350000,
-							"text_trans": "Chim"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 201,
+  "courseName": "Multiple Select - Động Vật",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 2,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "☑️",
+      "title": "Multiple Select Practice",
+      "description": "Luyện tập dạng multiple_select",
+      "color": "#3f51b5",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "<h2>Multiple Select - Động Vật</h2><p>Practice questions using multiple_select format.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_select",
+          "Question": "Which of these are mammals? (Select all)",
+          "explanation": "Dogs and cats are mammals, fish and birds are not",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Dog",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Cat",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "text": "Fish",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "text": "Bird",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "multiple_select",
+          "Question": "Which animals can fly? (Select all)",
+          "explanation": "Birds and bats can fly",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Bird",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "text": "Bat",
+              "isCorrect": true
+            },
+            {
+              "id": 4,
+              "text": "Cat",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "emoji": "📚",
+      "title": "Advanced Practice",
+      "description": "Câu hỏi nâng cao",
+      "color": "#4caf50",
+      "order": 2,
+      "lessons": [],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_select",
+          "Question": "Which of these are mammals? (Select all)",
+          "explanation": "Dogs and cats are mammals, fish and birds are not",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Dog",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Cat",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "text": "Fish",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "text": "Bird",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

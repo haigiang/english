@@ -1,126 +1,271 @@
 {
-	"courseId": 1002,
-	"courseName": "Ngữ Pháp Cơ Bản",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "📘",
-			"title": "Subject & Verb",
-			"description": "Chủ ngữ và động từ",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "green",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Basic Sentence Structure",
-					"content": "<h1>Cấu Trúc Câu Cơ Bản</h1><p>Subject + Verb + Object</p><ul><li>I eat rice</li><li>She reads books</li><li>They play football</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "In the sentence 'I eat rice', what is the subject?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "I",
-							"score": 800000,
-							"text_trans": "I"
-						},
-						{
-							"id": 2,
-							"text": "eat",
-							"score": 450000,
-							"text_trans": "eat"
-						},
-						{
-							"id": 3,
-							"text": "rice",
-							"score": 350000,
-							"text_trans": "rice"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "❓",
-			"title": "Questions & Answers",
-			"description": "Câu hỏi và trả lời",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "To ask a yes/no question, we use ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Do/Does/Did",
-							"score": 800000,
-							"text_trans": "Do/Does/Did"
-						},
-						{
-							"id": 2,
-							"text": "What/Where/When",
-							"score": 450000,
-							"text_trans": "What/Where/When"
-						},
-						{
-							"id": 3,
-							"text": "Because/So/But",
-							"score": 350000,
-							"text_trans": "Because/So/But"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🚫",
-			"title": "Negatives",
-			"description": "Câu phủ định",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "I ___ like coffee (negative)",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "don't",
-							"score": 800000,
-							"text_trans": "không"
-						},
-						{
-							"id": 2,
-							"text": "doesn't",
-							"score": 450000,
-							"text_trans": "không"
-						},
-						{
-							"id": 3,
-							"text": "not",
-							"score": 350000,
-							"text_trans": "không"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 1002,
+  "courseName": "All Types Intermediate - Ngữ Pháp",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "matching",
+          "Question": "Match each object with its Vietnamese translation",
+          "explanation": "Learn object vocabulary",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Book"
+            },
+            {
+              "id": 2,
+              "text": "Pen"
+            },
+            {
+              "id": 3,
+              "text": "Chair"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Cái ghế"
+            },
+            {
+              "id": "b",
+              "text": "Quyển sách"
+            },
+            {
+              "id": "c",
+              "text": "Cái bút"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "c",
+            "3": "a"
+          }
+        },
+        {
+          "id": 2,
+          "type": "matching",
+          "Question": "Match each room with its function",
+          "explanation": "Learn about rooms in a house",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Kitchen"
+            },
+            {
+              "id": 2,
+              "text": "Bedroom"
+            },
+            {
+              "id": 3,
+              "text": "Bathroom"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Sleep"
+            },
+            {
+              "id": "b",
+              "text": "Cook"
+            },
+            {
+              "id": "c",
+              "text": "Wash"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "a",
+            "3": "c"
+          }
+        },
+        {
+          "id": 3,
+          "type": "sentence_ordering",
+          "Question": "Arrange these words to form a correct sentence",
+          "explanation": "Subject + Verb + Object",
+          "words": [
+            {
+              "id": 1,
+              "text": "like",
+              "correctPosition": 2
+            },
+            {
+              "id": 2,
+              "text": "I",
+              "correctPosition": 1
+            },
+            {
+              "id": 3,
+              "text": "apples",
+              "correctPosition": 3
+            }
+          ],
+          "correctSentence": "I like apples"
+        },
+        {
+          "id": 4,
+          "type": "sentence_ordering",
+          "Question": "Put these words in the correct order",
+          "explanation": "Subject + Verb + Complement",
+          "words": [
+            {
+              "id": 1,
+              "text": "happy",
+              "correctPosition": 3
+            },
+            {
+              "id": 2,
+              "text": "am",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "I",
+              "correctPosition": 1
+            }
+          ],
+          "correctSentence": "I am happy"
+        },
+        {
+          "id": 5,
+          "type": "dropdown_selection",
+          "Question": "Choose the correct verb form",
+          "explanation": "Use present simple tense correctly",
+          "sentence": "She ___(1)___ to school every day.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "go",
+                  "isCorrect": false
+                },
+                {
+                  "text": "goes",
+                  "isCorrect": true
+                },
+                {
+                  "text": "going",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "dropdown_selection",
+          "Question": "Complete the sentence",
+          "explanation": "Subject-verb agreement",
+          "sentence": "They ___(1)___ football on weekends.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "play",
+                  "isCorrect": true
+                },
+                {
+                  "text": "plays",
+                  "isCorrect": false
+                },
+                {
+                  "text": "playing",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "image_selection",
+          "Question": "Which image shows a 'family'?",
+          "explanation": "Recognize family vocabulary",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/family.jpg",
+              "alt": "A family",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "url": "/images/dog.jpg",
+              "alt": "A dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "url": "/images/house.jpg",
+              "alt": "A house",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/car.jpg",
+              "alt": "A car",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "image_selection",
+          "Question": "Select the image of 'mother'",
+          "explanation": "Learn family members",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/father.jpg",
+              "alt": "Father",
+              "isCorrect": false
+            },
+            {
+              "id": 2,
+              "url": "/images/mother.jpg",
+              "alt": "Mother",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "url": "/images/brother.jpg",
+              "alt": "Brother",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/sister.jpg",
+              "alt": "Sister",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,150 +1,173 @@
 {
-	"courseId": 701,
-	"courseName": "Câu Bị Động - Lớp 7",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "🔄",
-			"title": "Passive Voice Basics",
-			"description": "Câu bị động cơ bản",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "green",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Introduction to Passive",
-					"content": "<h1>Câu Bị Động</h1><p>Be + Past Participle (V3)</p><ul><li>Active: She writes a letter</li><li>Passive: A letter is written by her</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "The book ___ by millions of people",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "is read",
-							"score": 800000,
-							"text_trans": "được đọc"
-						},
-						{
-							"id": 2,
-							"text": "reads",
-							"score": 450000,
-							"text_trans": "đọc"
-						},
-						{
-							"id": 3,
-							"text": "read",
-							"score": 350000,
-							"text_trans": "đọc"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "English ___ all over the world",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "is spoken",
-							"score": 800000,
-							"text_trans": "được nói"
-						},
-						{
-							"id": 2,
-							"text": "speaks",
-							"score": 450000,
-							"text_trans": "nói"
-						},
-						{
-							"id": 3,
-							"text": "speak",
-							"score": 350000,
-							"text_trans": "nói"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "⏰",
-			"title": "Passive in Different Tenses",
-			"description": "Bị động ở các thì khác nhau",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "The house ___ last year",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "was built",
-							"score": 800000,
-							"text_trans": "được xây"
-						},
-						{
-							"id": 2,
-							"text": "is built",
-							"score": 450000,
-							"text_trans": "được xây"
-						},
-						{
-							"id": 3,
-							"text": "built",
-							"score": 350000,
-							"text_trans": "xây"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "✍️",
-			"title": "Ôn tập câu bị động",
-			"description": "Ôn tập tất cả dạng bị động",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "A new school ___ next month",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "will be built",
-							"score": 800000,
-							"text_trans": "sẽ được xây"
-						},
-						{
-							"id": 2,
-							"text": "is built",
-							"score": 450000,
-							"text_trans": "được xây"
-						},
-						{
-							"id": 3,
-							"text": "was built",
-							"score": 350000,
-							"text_trans": "đã được xây"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 701,
+  "courseName": "Mixed Intermediate 2 - Lớp 7",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "image_selection",
+          "Question": "Which image shows a 'family'?",
+          "explanation": "Recognize family vocabulary",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/family.jpg",
+              "alt": "A family",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "url": "/images/dog.jpg",
+              "alt": "A dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "url": "/images/house.jpg",
+              "alt": "A house",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/car.jpg",
+              "alt": "A car",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "image_selection",
+          "Question": "Select the image of 'mother'",
+          "explanation": "Learn family members",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/father.jpg",
+              "alt": "Father",
+              "isCorrect": false
+            },
+            {
+              "id": 2,
+              "url": "/images/mother.jpg",
+              "alt": "Mother",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "url": "/images/brother.jpg",
+              "alt": "Brother",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/sister.jpg",
+              "alt": "Sister",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "dropdown_selection",
+          "Question": "Choose the correct verb form",
+          "explanation": "Use present simple tense correctly",
+          "sentence": "She ___(1)___ to school every day.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "go",
+                  "isCorrect": false
+                },
+                {
+                  "text": "goes",
+                  "isCorrect": true
+                },
+                {
+                  "text": "going",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "dropdown_selection",
+          "Question": "Complete the sentence",
+          "explanation": "Subject-verb agreement",
+          "sentence": "They ___(1)___ football on weekends.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "play",
+                  "isCorrect": true
+                },
+                {
+                  "text": "plays",
+                  "isCorrect": false
+                },
+                {
+                  "text": "playing",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "drag_drop",
+          "Question": "Drag the prepositions to complete the sentences",
+          "explanation": "Learn preposition usage",
+          "items": [
+            {
+              "id": 1,
+              "text": "on",
+              "correctPosition": 1
+            },
+            {
+              "id": 2,
+              "text": "in",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "at",
+              "correctPosition": 3
+            }
+          ],
+          "correctOrder": [
+            "on",
+            "in",
+            "at"
+          ]
+        }
+      ]
+    }
+  ]
 }

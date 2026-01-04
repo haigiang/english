@@ -1,126 +1,231 @@
 {
-	"courseId": 1102,
-	"courseName": "TOEIC Listening & Reading",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "📊",
-			"title": "TOEIC Part 1-2",
-			"description": "Photographs & Questions",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "orange",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Photo Description",
-					"content": "<h1>TOEIC Part 1</h1><p>Mô tả hình ảnh</p><ul><li>People and actions</li><li>Location and position</li><li>Objects and details</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "In TOEIC Part 1, you describe ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Photographs",
-							"score": 800000,
-							"text_trans": "Hình ảnh"
-						},
-						{
-							"id": 2,
-							"text": "Conversations",
-							"score": 450000,
-							"text_trans": "Hội thoại"
-						},
-						{
-							"id": 3,
-							"text": "Articles",
-							"score": 350000,
-							"text_trans": "Bài báo"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "📖",
-			"title": "TOEIC Part 5-6",
-			"description": "Grammar & Vocabulary",
-			"status": "locked",
-			"progress": 0,
-			"color": "orange",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "TOEIC Part 5 tests your ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Grammar and vocabulary",
-							"score": 800000,
-							"text_trans": "Ngữ pháp và từ vựng"
-						},
-						{
-							"id": 2,
-							"text": "Speaking skills",
-							"score": 450000,
-							"text_trans": "Kỹ năng nói"
-						},
-						{
-							"id": 3,
-							"text": "Writing skills",
-							"score": 350000,
-							"text_trans": "Kỹ năng viết"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "📰",
-			"title": "TOEIC Part 7",
-			"description": "Reading Comprehension",
-			"status": "locked",
-			"progress": 0,
-			"color": "orange",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "In Part 7, you read ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Articles, emails, and advertisements",
-							"score": 800000,
-							"text_trans": "Bài báo, email và quảng cáo"
-						},
-						{
-							"id": 2,
-							"text": "Only emails",
-							"score": 450000,
-							"text_trans": "Chỉ email"
-						},
-						{
-							"id": 3,
-							"text": "Only conversations",
-							"score": 350000,
-							"text_trans": "Chỉ hội thoại"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 1102,
+  "courseName": "Complete Mix 2 - TOEIC",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_select",
+          "Question": "Which of these are mammals? (Select all)",
+          "explanation": "Dogs and cats are mammals, fish and birds are not",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Dog",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Cat",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "text": "Fish",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "text": "Bird",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "multiple_select",
+          "Question": "Which animals can fly? (Select all)",
+          "explanation": "Birds and bats can fly",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Bird",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "text": "Bat",
+              "isCorrect": true
+            },
+            {
+              "id": 4,
+              "text": "Cat",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "dropdown_selection",
+          "Question": "Choose the correct verb form",
+          "explanation": "Use present simple tense correctly",
+          "sentence": "She ___(1)___ to school every day.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "go",
+                  "isCorrect": false
+                },
+                {
+                  "text": "goes",
+                  "isCorrect": true
+                },
+                {
+                  "text": "going",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "dropdown_selection",
+          "Question": "Complete the sentence",
+          "explanation": "Subject-verb agreement",
+          "sentence": "They ___(1)___ football on weekends.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "play",
+                  "isCorrect": true
+                },
+                {
+                  "text": "plays",
+                  "isCorrect": false
+                },
+                {
+                  "text": "playing",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "image_selection",
+          "Question": "Which image shows a 'family'?",
+          "explanation": "Recognize family vocabulary",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/family.jpg",
+              "alt": "A family",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "url": "/images/dog.jpg",
+              "alt": "A dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "url": "/images/house.jpg",
+              "alt": "A house",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/car.jpg",
+              "alt": "A car",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "type": "image_selection",
+          "Question": "Select the image of 'mother'",
+          "explanation": "Learn family members",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/father.jpg",
+              "alt": "Father",
+              "isCorrect": false
+            },
+            {
+              "id": 2,
+              "url": "/images/mother.jpg",
+              "alt": "Mother",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "url": "/images/brother.jpg",
+              "alt": "Brother",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/sister.jpg",
+              "alt": "Sister",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "type": "drag_drop",
+          "Question": "Drag the prepositions to complete the sentences",
+          "explanation": "Learn preposition usage",
+          "items": [
+            {
+              "id": 1,
+              "text": "on",
+              "correctPosition": 1
+            },
+            {
+              "id": 2,
+              "text": "in",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "at",
+              "correctPosition": 3
+            }
+          ],
+          "correctOrder": [
+            "on",
+            "in",
+            "at"
+          ]
+        }
+      ]
+    }
+  ]
 }

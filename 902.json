@@ -1,126 +1,211 @@
 {
-	"courseId": 902,
-	"courseName": "Đảo Ngữ - Lớp 9",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "🔄",
-			"title": "Inversion Basics",
-			"description": "Cơ bản về đảo ngữ",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "green",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Basic Inversion",
-					"content": "<h1>Đảo Ngữ</h1><p>Đảo trợ động từ lên trước chủ ngữ để nhấn mạnh</p><ul><li>Never have I seen such a thing</li><li>Rarely does she come late</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "Never ___ such a beautiful place",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "have I seen",
-							"score": 800000,
-							"text_trans": "tôi thấy"
-						},
-						{
-							"id": 2,
-							"text": "I have seen",
-							"score": 450000,
-							"text_trans": "tôi đã thấy"
-						},
-						{
-							"id": 3,
-							"text": "I seen",
-							"score": 350000,
-							"text_trans": "tôi thấy"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "⭐",
-			"title": "Inversion with Only",
-			"description": "Đảo ngữ với Only",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "Only then ___ the truth",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "did I understand",
-							"score": 800000,
-							"text_trans": "tôi hiểu"
-						},
-						{
-							"id": 2,
-							"text": "I understood",
-							"score": 450000,
-							"text_trans": "tôi hiểu"
-						},
-						{
-							"id": 3,
-							"text": "I understand",
-							"score": 350000,
-							"text_trans": "tôi hiểu"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🎭",
-			"title": "Ôn tập đảo ngữ",
-			"description": "Ôn tập tất cả dạng đảo ngữ",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "Seldom ___ to the cinema",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "do I go",
-							"score": 800000,
-							"text_trans": "tôi đi"
-						},
-						{
-							"id": 2,
-							"text": "I go",
-							"score": 450000,
-							"text_trans": "tôi đi"
-						},
-						{
-							"id": 3,
-							"text": "I went",
-							"score": 350000,
-							"text_trans": "tôi đã đi"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 902,
+  "courseName": "Mixed Master 2 - Lớp 9",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "Question": "One plus one equals two. (1 + 1 = 2)",
+          "explanation": "This is correct: 1 + 1 = 2",
+          "correctAnswer": true
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "Question": "Five is greater than ten. (5 > 10)",
+          "explanation": "This is false: 5 is less than 10",
+          "correctAnswer": false
+        },
+        {
+          "id": 3,
+          "type": "multiple_select",
+          "Question": "Which of these are mammals? (Select all)",
+          "explanation": "Dogs and cats are mammals, fish and birds are not",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Dog",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Cat",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "text": "Fish",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "text": "Bird",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "multiple_select",
+          "Question": "Which animals can fly? (Select all)",
+          "explanation": "Birds and bats can fly",
+          "correctCount": 2,
+          "Answers": [
+            {
+              "id": 1,
+              "text": "Bird",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "text": "Dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "text": "Bat",
+              "isCorrect": true
+            },
+            {
+              "id": 4,
+              "text": "Cat",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "sentence_ordering",
+          "Question": "Arrange these words to form a correct sentence",
+          "explanation": "Subject + Verb + Object",
+          "words": [
+            {
+              "id": 1,
+              "text": "like",
+              "correctPosition": 2
+            },
+            {
+              "id": 2,
+              "text": "I",
+              "correctPosition": 1
+            },
+            {
+              "id": 3,
+              "text": "apples",
+              "correctPosition": 3
+            }
+          ],
+          "correctSentence": "I like apples"
+        },
+        {
+          "id": 6,
+          "type": "sentence_ordering",
+          "Question": "Put these words in the correct order",
+          "explanation": "Subject + Verb + Complement",
+          "words": [
+            {
+              "id": 1,
+              "text": "happy",
+              "correctPosition": 3
+            },
+            {
+              "id": 2,
+              "text": "am",
+              "correctPosition": 2
+            },
+            {
+              "id": 3,
+              "text": "I",
+              "correctPosition": 1
+            }
+          ],
+          "correctSentence": "I am happy"
+        },
+        {
+          "id": 7,
+          "type": "image_selection",
+          "Question": "Which image shows a 'family'?",
+          "explanation": "Recognize family vocabulary",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/family.jpg",
+              "alt": "A family",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "url": "/images/dog.jpg",
+              "alt": "A dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "url": "/images/house.jpg",
+              "alt": "A house",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/car.jpg",
+              "alt": "A car",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "image_selection",
+          "Question": "Select the image of 'mother'",
+          "explanation": "Learn family members",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/father.jpg",
+              "alt": "Father",
+              "isCorrect": false
+            },
+            {
+              "id": 2,
+              "url": "/images/mother.jpg",
+              "alt": "Mother",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "url": "/images/brother.jpg",
+              "alt": "Brother",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/sister.jpg",
+              "alt": "Sister",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

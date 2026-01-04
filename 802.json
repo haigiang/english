@@ -1,126 +1,137 @@
 {
-	"courseId": 802,
-	"courseName": "Câu Ước - Lớp 8",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "✨",
-			"title": "Wish in Present",
-			"description": "Ước về hiện tại",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "pink",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "I wish - Present",
-					"content": "<h1>Câu Ước Hiện Tại</h1><p>I wish + past simple (ước điều không có thật ở hiện tại)</p><ul><li>I wish I were rich</li><li>I wish I could fly</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "I wish I ___ taller",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "were",
-							"score": 800000,
-							"text_trans": "là"
-						},
-						{
-							"id": 2,
-							"text": "am",
-							"score": 450000,
-							"text_trans": "là"
-						},
-						{
-							"id": 3,
-							"text": "was",
-							"score": 750000,
-							"text_trans": "là"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "⏮️",
-			"title": "Wish in Past",
-			"description": "Ước về quá khứ",
-			"status": "locked",
-			"progress": 0,
-			"color": "pink",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "I wish I ___ harder last year",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "had studied",
-							"score": 800000,
-							"text_trans": "đã học"
-						},
-						{
-							"id": 2,
-							"text": "studied",
-							"score": 450000,
-							"text_trans": "học"
-						},
-						{
-							"id": 3,
-							"text": "study",
-							"score": 350000,
-							"text_trans": "học"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🔮",
-			"title": "Wish in Future",
-			"description": "Ước về tương lai",
-			"status": "locked",
-			"progress": 0,
-			"color": "pink",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "I wish it ___ rain tomorrow",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "wouldn't",
-							"score": 800000,
-							"text_trans": "sẽ không"
-						},
-						{
-							"id": 2,
-							"text": "won't",
-							"score": 450000,
-							"text_trans": "sẽ không"
-						},
-						{
-							"id": 3,
-							"text": "doesn't",
-							"score": 350000,
-							"text_trans": "không"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 802,
+  "courseName": "Mixed Advanced 3 - Lớp 8",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "Question": "One plus one equals two. (1 + 1 = 2)",
+          "explanation": "This is correct: 1 + 1 = 2",
+          "correctAnswer": true
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "Question": "Five is greater than ten. (5 > 10)",
+          "explanation": "This is false: 5 is less than 10",
+          "correctAnswer": false
+        },
+        {
+          "id": 3,
+          "type": "image_selection",
+          "Question": "Which image shows a 'family'?",
+          "explanation": "Recognize family vocabulary",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/family.jpg",
+              "alt": "A family",
+              "isCorrect": true
+            },
+            {
+              "id": 2,
+              "url": "/images/dog.jpg",
+              "alt": "A dog",
+              "isCorrect": false
+            },
+            {
+              "id": 3,
+              "url": "/images/house.jpg",
+              "alt": "A house",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/car.jpg",
+              "alt": "A car",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "image_selection",
+          "Question": "Select the image of 'mother'",
+          "explanation": "Learn family members",
+          "images": [
+            {
+              "id": 1,
+              "url": "/images/father.jpg",
+              "alt": "Father",
+              "isCorrect": false
+            },
+            {
+              "id": 2,
+              "url": "/images/mother.jpg",
+              "alt": "Mother",
+              "isCorrect": true
+            },
+            {
+              "id": 3,
+              "url": "/images/brother.jpg",
+              "alt": "Brother",
+              "isCorrect": false
+            },
+            {
+              "id": 4,
+              "url": "/images/sister.jpg",
+              "alt": "Sister",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "cloze_test",
+          "Question": "Fill in the blanks with correct past tense verbs",
+          "explanation": "Complete the paragraph using past tense",
+          "text": "Yesterday, I ___(1)___ to the park. I ___(2)___ my friend there. We ___(3)___ football together.",
+          "blanks": [
+            {
+              "id": 1,
+              "correctAnswers": [
+                "went",
+                "walked"
+              ],
+              "position": 1
+            },
+            {
+              "id": 2,
+              "correctAnswers": [
+                "met",
+                "saw"
+              ],
+              "position": 2
+            },
+            {
+              "id": 3,
+              "correctAnswers": [
+                "played"
+              ],
+              "position": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

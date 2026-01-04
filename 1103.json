@@ -1,126 +1,175 @@
 {
-	"courseId": 1103,
-	"courseName": "IELTS Academic Preparation",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "✍️",
-			"title": "IELTS Writing Task 1",
-			"description": "Graphs, Charts & Diagrams",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "pink",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Describing Trends",
-					"content": "<h1>IELTS Writing Task 1</h1><p>Mô tả biểu đồ và xu hướng</p><ul><li>Increase/Decrease vocabulary</li><li>Compare and contrast</li><li>Overview writing</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "In IELTS Writing Task 1, you should write at least ___ words",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "150",
-							"score": 800000,
-							"text_trans": "150"
-						},
-						{
-							"id": 2,
-							"text": "250",
-							"score": 450000,
-							"text_trans": "250"
-						},
-						{
-							"id": 3,
-							"text": "100",
-							"score": 350000,
-							"text_trans": "100"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "📝",
-			"title": "IELTS Writing Task 2",
-			"description": "Essay Writing",
-			"status": "locked",
-			"progress": 0,
-			"color": "pink",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "IELTS Writing Task 2 requires ___ words minimum",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "250",
-							"score": 800000,
-							"text_trans": "250"
-						},
-						{
-							"id": 2,
-							"text": "150",
-							"score": 450000,
-							"text_trans": "150"
-						},
-						{
-							"id": 3,
-							"text": "300",
-							"score": 350000,
-							"text_trans": "300"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🗣️",
-			"title": "IELTS Speaking",
-			"description": "Speaking Test Preparation",
-			"status": "locked",
-			"progress": 0,
-			"color": "pink",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "IELTS Speaking has ___ parts",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "3",
-							"score": 800000,
-							"text_trans": "3"
-						},
-						{
-							"id": 2,
-							"text": "2",
-							"score": 450000,
-							"text_trans": "2"
-						},
-						{
-							"id": 3,
-							"text": "4",
-							"score": 350000,
-							"text_trans": "4"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 1103,
+  "courseName": "Complete Mix 3 - IELTS",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "cloze_test",
+          "Question": "Fill in the blanks with correct past tense verbs",
+          "explanation": "Complete the paragraph using past tense",
+          "text": "Yesterday, I ___(1)___ to the park. I ___(2)___ my friend there. We ___(3)___ football together.",
+          "blanks": [
+            {
+              "id": 1,
+              "correctAnswers": [
+                "went",
+                "walked"
+              ],
+              "position": 1
+            },
+            {
+              "id": 2,
+              "correctAnswers": [
+                "met",
+                "saw"
+              ],
+              "position": 2
+            },
+            {
+              "id": 3,
+              "correctAnswers": [
+                "played"
+              ],
+              "position": 3
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "audio_question",
+          "Question": "Listen and choose the correct comparative form",
+          "explanation": "Practice listening for comparatives",
+          "audioUrl": "/audio/bigger.mp3",
+          "audioText": "bigger",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "bigger",
+              "score": 800000
+            },
+            {
+              "id": 2,
+              "text": "more big",
+              "score": 200000
+            },
+            {
+              "id": 3,
+              "text": "biggest",
+              "score": 300000
+            },
+            {
+              "id": 4,
+              "text": "big",
+              "score": 100000
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "multiple_choice",
+          "Question": "What letter comes after A?",
+          "explanation": "B is the second letter in the alphabet",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "B",
+              "score": 800000,
+              "text_trans": "B"
+            },
+            {
+              "id": 2,
+              "text": "C",
+              "score": 450000,
+              "text_trans": "C"
+            },
+            {
+              "id": 3,
+              "text": "D",
+              "score": 350000,
+              "text_trans": "D"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "Question": "Which letter comes before D?",
+          "explanation": "C comes before D",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "A",
+              "score": 300000,
+              "text_trans": "A"
+            },
+            {
+              "id": 2,
+              "text": "B",
+              "score": 400000,
+              "text_trans": "B"
+            },
+            {
+              "id": 3,
+              "text": "C",
+              "score": 800000,
+              "text_trans": "C"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "type": "fill_blank",
+          "Question": "The sky is ___.",
+          "explanation": "The sky is blue",
+          "correctAnswers": [
+            "blue"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 6,
+          "type": "fill_blank",
+          "Question": "Grass is ___.",
+          "explanation": "Grass is green",
+          "correctAnswers": [
+            "green"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        }
+      ]
+    }
+  ]
 }

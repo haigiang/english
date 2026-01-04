@@ -1,150 +1,155 @@
 {
-	"courseId": 202,
-	"courseName": "Đồ Vật Xung Quanh - Lớp 2",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "📚",
-			"title": "Đồ dùng học tập",
-			"description": "Học về đồ dùng trong lớp",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "blue",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Classroom Objects",
-					"content": "<h1>Đồ Dùng Học Tập</h1><p>Các đồ vật trong lớp học</p><ul><li>Book = Sách</li><li>Pen = Bút mực</li><li>Pencil = Bút chì</li><li>Eraser = Tẩy</li><li>Ruler = Thước kẻ</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "What do you write with?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Pen",
-							"score": 800000,
-							"text_trans": "Bút mực"
-						},
-						{
-							"id": 2,
-							"text": "Book",
-							"score": 450000,
-							"text_trans": "Sách"
-						},
-						{
-							"id": 3,
-							"text": "Eraser",
-							"score": 350000,
-							"text_trans": "Tẩy"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "I read a ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Book",
-							"score": 800000,
-							"text_trans": "Quyển sách"
-						},
-						{
-							"id": 2,
-							"text": "Pen",
-							"score": 450000,
-							"text_trans": "Cây bút"
-						},
-						{
-							"id": 3,
-							"text": "Ruler",
-							"score": 350000,
-							"text_trans": "Cái thước"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "🏠",
-			"title": "Đồ vật trong nhà",
-			"description": "Học về đồ dùng gia đình",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "Where do you sleep?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Bed",
-							"score": 800000,
-							"text_trans": "Giường"
-						},
-						{
-							"id": 2,
-							"text": "Chair",
-							"score": 450000,
-							"text_trans": "Ghế"
-						},
-						{
-							"id": 3,
-							"text": "Table",
-							"score": 350000,
-							"text_trans": "Bàn"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🎯",
-			"title": "Ôn tập đồ vật",
-			"description": "Ôn tập tất cả đồ vật",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "You sit on a ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Chair",
-							"score": 800000,
-							"text_trans": "Cái ghế"
-						},
-						{
-							"id": 2,
-							"text": "Bed",
-							"score": 450000,
-							"text_trans": "Cái giường"
-						},
-						{
-							"id": 3,
-							"text": "Floor",
-							"score": 350000,
-							"text_trans": "Sàn nhà"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 202,
+  "courseName": "Matching - Đồ Vật",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 2,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🔗",
+      "title": "Matching Practice",
+      "description": "Luyện tập dạng matching",
+      "color": "#009688",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "<h2>Matching - Đồ Vật</h2><p>Practice questions using matching format.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "matching",
+          "Question": "Match each object with its Vietnamese translation",
+          "explanation": "Learn object vocabulary",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Book"
+            },
+            {
+              "id": 2,
+              "text": "Pen"
+            },
+            {
+              "id": 3,
+              "text": "Chair"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Cái ghế"
+            },
+            {
+              "id": "b",
+              "text": "Quyển sách"
+            },
+            {
+              "id": "c",
+              "text": "Cái bút"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "c",
+            "3": "a"
+          }
+        },
+        {
+          "id": 2,
+          "type": "matching",
+          "Question": "Match each room with its function",
+          "explanation": "Learn about rooms in a house",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Kitchen"
+            },
+            {
+              "id": 2,
+              "text": "Bedroom"
+            },
+            {
+              "id": 3,
+              "text": "Bathroom"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Sleep"
+            },
+            {
+              "id": "b",
+              "text": "Cook"
+            },
+            {
+              "id": "c",
+              "text": "Wash"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "a",
+            "3": "c"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "emoji": "📚",
+      "title": "Advanced Practice",
+      "description": "Câu hỏi nâng cao",
+      "color": "#4caf50",
+      "order": 2,
+      "lessons": [],
+      "questions": [
+        {
+          "id": 1,
+          "type": "matching",
+          "Question": "Match each object with its Vietnamese translation",
+          "explanation": "Learn object vocabulary",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Book"
+            },
+            {
+              "id": 2,
+              "text": "Pen"
+            },
+            {
+              "id": 3,
+              "text": "Chair"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Cái ghế"
+            },
+            {
+              "id": "b",
+              "text": "Quyển sách"
+            },
+            {
+              "id": "c",
+              "text": "Cái bút"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "c",
+            "3": "a"
+          }
+        }
+      ]
+    }
+  ]
 }

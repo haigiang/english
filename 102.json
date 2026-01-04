@@ -1,185 +1,73 @@
 {
-	"courseId": 102,
-	"courseName": "Số Đếm Tiếng Anh - Lớp 1",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "1️⃣",
-			"title": "Số 1-10",
-			"description": "Học đếm từ 1 đến 10",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "green",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Số 1-5",
-					"content": "<h1>Số 1-5</h1><p>Học đếm từ một đến năm</p><ul><li>One = Một</li><li>Two = Hai</li><li>Three = Ba</li><li>Four = Bốn</li><li>Five = Năm</li></ul>"
-				},
-				{
-					"id": "1-2",
-					"title": "Số 6-10",
-					"content": "<h1>Số 6-10</h1><p>Học đếm từ sáu đến mười</p><ul><li>Six = Sáu</li><li>Seven = Bảy</li><li>Eight = Tám</li><li>Nine = Chín</li><li>Ten = Mười</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "What number is this: 1?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "One",
-							"score": 800000,
-							"text_trans": "Một"
-						},
-						{
-							"id": 2,
-							"text": "Two",
-							"score": 450000,
-							"text_trans": "Hai"
-						},
-						{
-							"id": 3,
-							"text": "Three",
-							"score": 350000,
-							"text_trans": "Ba"
-						}
-					]
-				},
-				{
-					"id": 2,
-					"Question": "Count: 1, 2, ___",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Three",
-							"score": 800000,
-							"text_trans": "Ba"
-						},
-						{
-							"id": 2,
-							"text": "Four",
-							"score": 450000,
-							"text_trans": "Bốn"
-						},
-						{
-							"id": 3,
-							"text": "Five",
-							"score": 350000,
-							"text_trans": "Năm"
-						}
-					]
-				},
-				{
-					"id": 3,
-					"Question": "How many apples? 🍎🍎🍎🍎🍎",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Five",
-							"score": 800000,
-							"text_trans": "Năm"
-						},
-						{
-							"id": 2,
-							"text": "Four",
-							"score": 450000,
-							"text_trans": "Bốn"
-						},
-						{
-							"id": 3,
-							"text": "Six",
-							"score": 350000,
-							"text_trans": "Sáu"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "2️⃣",
-			"title": "Số 11-20",
-			"description": "Học đếm từ 11 đến 20",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 2,
-			"lessons": [
-				{
-					"id": "2-1",
-					"title": "Số 11-15",
-					"content": "<h1>Số 11-15</h1><p>Học đếm từ mười một đến mười lăm</p>"
-				}
-			],
-			"questions": [
-				{
-					"id": 4,
-					"Question": "What comes after ten?",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Eleven",
-							"score": 800000,
-							"text_trans": "Mười một"
-						},
-						{
-							"id": 2,
-							"text": "Twelve",
-							"score": 450000,
-							"text_trans": "Mười hai"
-						},
-						{
-							"id": 3,
-							"text": "Nine",
-							"score": 350000,
-							"text_trans": "Chín"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "3️⃣",
-			"title": "Ôn tập số",
-			"description": "Ôn tập tất cả các số đã học",
-			"status": "locked",
-			"progress": 0,
-			"color": "green",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 5,
-					"Question": "Count from 1 to 5",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "One, Two, Three, Four, Five",
-							"score": 800000,
-							"text_trans": "Một, Hai, Ba, Bốn, Năm"
-						},
-						{
-							"id": 2,
-							"text": "One, Three, Five",
-							"score": 450000,
-							"text_trans": "Một, Ba, Năm"
-						},
-						{
-							"id": 3,
-							"text": "Five, Four, Three, Two, One",
-							"score": 350000,
-							"text_trans": "Năm, Bốn, Ba, Hai, Một"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 102,
+  "courseName": "True/False - Số Đếm",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 2,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "✅",
+      "title": "True False Practice",
+      "description": "Luyện tập dạng true_false",
+      "color": "#2196f3",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "<h2>True/False - Số Đếm</h2><p>Practice questions using true_false format.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "Question": "One plus one equals two. (1 + 1 = 2)",
+          "explanation": "This is correct: 1 + 1 = 2",
+          "correctAnswer": true
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "Question": "Five is greater than ten. (5 > 10)",
+          "explanation": "This is false: 5 is less than 10",
+          "correctAnswer": false
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "Question": "There are seven days in a week.",
+          "explanation": "This is correct",
+          "correctAnswer": true
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "Question": "Eight minus three equals six. (8 - 3 = 6)",
+          "explanation": "This is false: 8 - 3 = 5",
+          "correctAnswer": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "emoji": "📚",
+      "title": "Advanced Practice",
+      "description": "Câu hỏi nâng cao",
+      "color": "#4caf50",
+      "order": 2,
+      "lessons": [],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "Question": "One plus one equals two. (1 + 1 = 2)",
+          "explanation": "This is correct: 1 + 1 = 2",
+          "correctAnswer": true
+        }
+      ]
+    }
+  ]
 }

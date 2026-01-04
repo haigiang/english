@@ -1,126 +1,245 @@
 {
-	"courseId": 901,
-	"courseName": "Mệnh Đề Phân Từ - Lớp 9",
-	"currentModuleId": 1,
-	"completedModules": 0,
-	"totalModules": 3,
-	"modules": [
-		{
-			"id": 1,
-			"emoji": "🎯",
-			"title": "Present Participle",
-			"description": "Phân từ hiện tại (V-ing)",
-			"status": "inprogress",
-			"progress": 0,
-			"color": "blue",
-			"order": 1,
-			"lessons": [
-				{
-					"id": "1-1",
-					"title": "Participle Clauses",
-					"content": "<h1>Mệnh Đề Phân Từ</h1><p>Rút gọn mệnh đề bằng V-ing</p><ul><li>Because I was tired, I went to bed early → Being tired, I went to bed early</li></ul>"
-				}
-			],
-			"questions": [
-				{
-					"id": 1,
-					"Question": "___ tired, I went to bed early",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Being",
-							"score": 800000,
-							"text_trans": "Vì"
-						},
-						{
-							"id": 2,
-							"text": "Be",
-							"score": 450000,
-							"text_trans": "Be"
-						},
-						{
-							"id": 3,
-							"text": "Been",
-							"score": 350000,
-							"text_trans": "Been"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 2,
-			"emoji": "✅",
-			"title": "Past Participle",
-			"description": "Phân từ quá khứ (V3)",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 2,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 2,
-					"Question": "___ in Vietnam, he speaks Vietnamese well",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Born",
-							"score": 800000,
-							"text_trans": "Sinh ra"
-						},
-						{
-							"id": 2,
-							"text": "Being born",
-							"score": 450000,
-							"text_trans": "Đang được sinh ra"
-						},
-						{
-							"id": 3,
-							"text": "Be born",
-							"score": 350000,
-							"text_trans": "Được sinh ra"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 3,
-			"emoji": "🎓",
-			"title": "Ôn tập phân từ",
-			"description": "Ôn tập tất cả loại phân từ",
-			"status": "locked",
-			"progress": 0,
-			"color": "blue",
-			"order": 3,
-			"lessons": [],
-			"questions": [
-				{
-					"id": 3,
-					"Question": "___ the homework, she went out to play",
-					"Answers": [
-						{
-							"id": 1,
-							"text": "Having finished",
-							"score": 800000,
-							"text_trans": "Đã hoàn thành"
-						},
-						{
-							"id": 2,
-							"text": "Finishing",
-							"score": 450000,
-							"text_trans": "Hoàn thành"
-						},
-						{
-							"id": 3,
-							"text": "Finished",
-							"score": 350000,
-							"text_trans": "Đã hoàn thành"
-						}
-					]
-				}
-			]
-		}
-	]
+  "courseId": 901,
+  "courseName": "Mixed Master 1 - Lớp 9",
+  "currentModuleId": 1,
+  "completedModules": 0,
+  "totalModules": 1,
+  "modules": [
+    {
+      "id": 1,
+      "emoji": "🎯",
+      "title": "Mixed Question Types",
+      "description": "Tổng hợp nhiều dạng câu hỏi",
+      "color": "#9c27b0",
+      "order": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Review All Types",
+          "content": "<h2>Mixed Practice</h2><p>Practice with different question types.</p>",
+          "order": 1
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "Question": "What letter comes after A?",
+          "explanation": "B is the second letter in the alphabet",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "B",
+              "score": 800000,
+              "text_trans": "B"
+            },
+            {
+              "id": 2,
+              "text": "C",
+              "score": 450000,
+              "text_trans": "C"
+            },
+            {
+              "id": 3,
+              "text": "D",
+              "score": 350000,
+              "text_trans": "D"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "Question": "Which letter comes before D?",
+          "explanation": "C comes before D",
+          "Answers": [
+            {
+              "id": 1,
+              "text": "A",
+              "score": 300000,
+              "text_trans": "A"
+            },
+            {
+              "id": 2,
+              "text": "B",
+              "score": 400000,
+              "text_trans": "B"
+            },
+            {
+              "id": 3,
+              "text": "C",
+              "score": 800000,
+              "text_trans": "C"
+            },
+            {
+              "id": 4,
+              "text": "E",
+              "score": 250000,
+              "text_trans": "E"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "fill_blank",
+          "Question": "The sky is ___.",
+          "explanation": "The sky is blue",
+          "correctAnswers": [
+            "blue"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 4,
+          "type": "fill_blank",
+          "Question": "Grass is ___.",
+          "explanation": "Grass is green",
+          "correctAnswers": [
+            "green"
+          ],
+          "caseSensitive": false,
+          "acceptPartial": false
+        },
+        {
+          "id": 5,
+          "type": "matching",
+          "Question": "Match each object with its Vietnamese translation",
+          "explanation": "Learn object vocabulary",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Book"
+            },
+            {
+              "id": 2,
+              "text": "Pen"
+            },
+            {
+              "id": 3,
+              "text": "Chair"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Cái ghế"
+            },
+            {
+              "id": "b",
+              "text": "Quyển sách"
+            },
+            {
+              "id": "c",
+              "text": "Cái bút"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "c",
+            "3": "a"
+          }
+        },
+        {
+          "id": 6,
+          "type": "matching",
+          "Question": "Match each room with its function",
+          "explanation": "Learn about rooms in a house",
+          "leftColumn": [
+            {
+              "id": 1,
+              "text": "Kitchen"
+            },
+            {
+              "id": 2,
+              "text": "Bedroom"
+            },
+            {
+              "id": 3,
+              "text": "Bathroom"
+            }
+          ],
+          "rightColumn": [
+            {
+              "id": "a",
+              "text": "Sleep"
+            },
+            {
+              "id": "b",
+              "text": "Cook"
+            },
+            {
+              "id": "c",
+              "text": "Wash"
+            }
+          ],
+          "correctMatches": {
+            "1": "b",
+            "2": "a",
+            "3": "c"
+          }
+        },
+        {
+          "id": 7,
+          "type": "dropdown_selection",
+          "Question": "Choose the correct verb form",
+          "explanation": "Use present simple tense correctly",
+          "sentence": "She ___(1)___ to school every day.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "go",
+                  "isCorrect": false
+                },
+                {
+                  "text": "goes",
+                  "isCorrect": true
+                },
+                {
+                  "text": "going",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "type": "dropdown_selection",
+          "Question": "Complete the sentence",
+          "explanation": "Subject-verb agreement",
+          "sentence": "They ___(1)___ football on weekends.",
+          "dropdowns": [
+            {
+              "id": 1,
+              "position": 1,
+              "options": [
+                {
+                  "text": "play",
+                  "isCorrect": true
+                },
+                {
+                  "text": "plays",
+                  "isCorrect": false
+                },
+                {
+                  "text": "playing",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
